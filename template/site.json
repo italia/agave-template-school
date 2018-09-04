@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": "7",
+      "id": "1",
       "type": "item_type",
       "attributes": {
         "name": "Comunicazioni",
@@ -15,31 +15,31 @@
         "fields": {
           "data": [
             {
-              "id": "24",
+              "id": "1",
               "type": "field"
             },
             {
-              "id": "25",
+              "id": "2",
               "type": "field"
             },
             {
-              "id": "40",
+              "id": "3",
               "type": "field"
             },
             {
-              "id": "41",
+              "id": "4",
               "type": "field"
             },
             {
-              "id": "42",
+              "id": "5",
               "type": "field"
             },
             {
-              "id": "43",
+              "id": "6",
               "type": "field"
             },
             {
-              "id": "87",
+              "id": "7",
               "type": "field"
             }
           ]
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "11",
+      "id": "2",
       "type": "item_type",
       "attributes": {
         "name": "Blocchi Homepage",
@@ -67,14 +67,6 @@
         "fields": {
           "data": [
             {
-              "id": "6",
-              "type": "field"
-            },
-            {
-              "id": "7",
-              "type": "field"
-            },
-            {
               "id": "8",
               "type": "field"
             },
@@ -83,11 +75,19 @@
               "type": "field"
             },
             {
+              "id": "10",
+              "type": "field"
+            },
+            {
               "id": "11",
               "type": "field"
             },
             {
-              "id": "10",
+              "id": "12",
+              "type": "field"
+            },
+            {
+              "id": "13",
               "type": "field"
             }
           ]
@@ -101,13 +101,113 @@
       }
     },
     {
-      "id": "12",
+      "id": "3",
       "type": "item_type",
       "attributes": {
         "name": "Documenti allegati",
         "singleton": false,
         "sortable": true,
         "api_key": "document",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "14",
+              "type": "field"
+            },
+            {
+              "id": "15",
+              "type": "field"
+            },
+            {
+              "id": "16",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "4",
+      "type": "item_type",
+      "attributes": {
+        "name": "Argomenti",
+        "singleton": false,
+        "sortable": false,
+        "api_key": "tag",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "17",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "5",
+      "type": "item_type",
+      "attributes": {
+        "name": "Blocchi di Testo",
+        "singleton": false,
+        "sortable": false,
+        "api_key": "text_block",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "18",
+              "type": "field"
+            },
+            {
+              "id": "19",
+              "type": "field"
+            },
+            {
+              "id": "20",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "6",
+      "type": "item_type",
+      "attributes": {
+        "name": "Blocchi documenti",
+        "singleton": false,
+        "sortable": false,
+        "api_key": "document_block",
         "ordering_direction": null,
         "tree": false
       },
@@ -137,13 +237,13 @@
       }
     },
     {
-      "id": "13",
+      "id": "7",
       "type": "item_type",
       "attributes": {
-        "name": "Argomenti",
+        "name": "Personale scolastico",
         "singleton": false,
         "sortable": false,
-        "api_key": "tag",
+        "api_key": "school_staff",
         "ordering_direction": null,
         "tree": false
       },
@@ -151,7 +251,19 @@
         "fields": {
           "data": [
             {
-              "id": "49",
+              "id": "24",
+              "type": "field"
+            },
+            {
+              "id": "25",
+              "type": "field"
+            },
+            {
+              "id": "26",
+              "type": "field"
+            },
+            {
+              "id": "27",
               "type": "field"
             }
           ]
@@ -165,13 +277,13 @@
       }
     },
     {
-      "id": "14",
+      "id": "8",
       "type": "item_type",
       "attributes": {
-        "name": "Blocchi di Testo",
+        "name": "Blocco personale",
         "singleton": false,
         "sortable": false,
-        "api_key": "text_block",
+        "api_key": "staff_block",
         "ordering_direction": null,
         "tree": false
       },
@@ -179,15 +291,15 @@
         "fields": {
           "data": [
             {
-              "id": "55",
+              "id": "28",
               "type": "field"
             },
             {
-              "id": "56",
+              "id": "29",
               "type": "field"
             },
             {
-              "id": "57",
+              "id": "30",
               "type": "field"
             }
           ]
@@ -204,10 +316,10 @@
       "id": "15",
       "type": "item_type",
       "attributes": {
-        "name": "Blocchi documenti",
+        "name": "Notizie",
         "singleton": false,
         "sortable": false,
-        "api_key": "document_block",
+        "api_key": "post",
         "ordering_direction": null,
         "tree": false
       },
@@ -215,81 +327,21 @@
         "fields": {
           "data": [
             {
-              "id": "58",
+              "id": "77",
               "type": "field"
             },
             {
-              "id": "59",
+              "id": "78",
               "type": "field"
             },
             {
-              "id": "60",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "16",
-      "type": "item_type",
-      "attributes": {
-        "name": "Personale scolastico",
-        "singleton": false,
-        "sortable": false,
-        "api_key": "school_staff",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "66",
+              "id": "79",
               "type": "field"
             },
             {
-              "id": "69",
+              "id": "80",
               "type": "field"
             },
-            {
-              "id": "67",
-              "type": "field"
-            },
-            {
-              "id": "68",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "17",
-      "type": "item_type",
-      "attributes": {
-        "name": "Blocco personale",
-        "singleton": false,
-        "sortable": false,
-        "api_key": "staff_block",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
             {
               "id": "81",
               "type": "field"
@@ -313,317 +365,37 @@
       }
     },
     {
-      "id": "2",
+      "id": "16",
       "type": "item_type",
       "attributes": {
-        "name": "Carta d'identità",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "identity_card_page",
+        "name": "Servizi",
+        "singleton": false,
+        "sortable": true,
+        "api_key": "service_page",
         "ordering_direction": null,
         "tree": false
       },
       "relationships": {
         "fields": {
           "data": [
-            {
-              "id": "12",
-              "type": "field"
-            },
-            {
-              "id": "13",
-              "type": "field"
-            },
-            {
-              "id": "14",
-              "type": "field"
-            },
-            {
-              "id": "15",
-              "type": "field"
-            },
-            {
-              "id": "16",
-              "type": "field"
-            },
-            {
-              "id": "17",
-              "type": "field"
-            },
-            {
-              "id": "18",
-              "type": "field"
-            },
-            {
-              "id": "19",
-              "type": "field"
-            },
-            {
-              "id": "20",
-              "type": "field"
-            },
-            {
-              "id": "86",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "9",
-      "type": "item_type",
-      "attributes": {
-        "name": "Materie e schede didattiche",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "school_subject_page",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "75",
-              "type": "field"
-            },
-            {
-              "id": "76",
-              "type": "field"
-            },
-            {
-              "id": "77",
-              "type": "field"
-            },
-            {
-              "id": "78",
-              "type": "field"
-            },
-            {
-              "id": "79",
-              "type": "field"
-            },
-            {
-              "id": "80",
-              "type": "field"
-            },
-            {
-              "id": "90",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "4",
-      "type": "item_type",
-      "attributes": {
-        "name": "Contatti",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "contact_page",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "34",
-              "type": "field"
-            },
-            {
-              "id": "35",
-              "type": "field"
-            },
-            {
-              "id": "36",
-              "type": "field"
-            },
-            {
-              "id": "37",
-              "type": "field"
-            },
-            {
-              "id": "38",
-              "type": "field"
-            },
-            {
-              "id": "39",
-              "type": "field"
-            },
-            {
-              "id": "88",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "8",
-      "type": "item_type",
-      "attributes": {
-        "name": "Orari delle lezioni",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "teaching_hour_page",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "70",
-              "type": "field"
-            },
-            {
-              "id": "71",
-              "type": "field"
-            },
-            {
-              "id": "72",
-              "type": "field"
-            },
-            {
-              "id": "73",
-              "type": "field"
-            },
-            {
-              "id": "74",
-              "type": "field"
-            },
-            {
-              "id": "92",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "3",
-      "type": "item_type",
-      "attributes": {
-        "name": "Organizzazione",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "oragnization_page",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "26",
-              "type": "field"
-            },
-            {
-              "id": "27",
-              "type": "field"
-            },
-            {
-              "id": "28",
-              "type": "field"
-            },
-            {
-              "id": "29",
-              "type": "field"
-            },
-            {
-              "id": "30",
-              "type": "field"
-            },
-            {
-              "id": "31",
-              "type": "field"
-            },
-            {
-              "id": "32",
-              "type": "field"
-            },
-            {
-              "id": "33",
-              "type": "field"
-            },
             {
               "id": "84",
               "type": "field"
             },
             {
-              "id": "93",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "1",
-      "type": "item_type",
-      "attributes": {
-        "name": "Homepage",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "homepage",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "2",
+              "id": "85",
               "type": "field"
             },
             {
-              "id": "1",
+              "id": "86",
               "type": "field"
             },
             {
-              "id": "3",
+              "id": "87",
               "type": "field"
             },
             {
-              "id": "4",
-              "type": "field"
-            },
-            {
-              "id": "5",
+              "id": "88",
               "type": "field"
             },
             {
@@ -641,13 +413,13 @@
       }
     },
     {
-      "id": "6",
+      "id": "17",
       "type": "item_type",
       "attributes": {
-        "name": "Notizie",
+        "name": "Progetti",
         "singleton": false,
-        "sortable": false,
-        "api_key": "post",
+        "sortable": true,
+        "api_key": "project_page",
         "ordering_direction": null,
         "tree": false
       },
@@ -655,75 +427,23 @@
         "fields": {
           "data": [
             {
-              "id": "44",
-              "type": "field"
-            },
-            {
-              "id": "45",
-              "type": "field"
-            },
-            {
-              "id": "46",
-              "type": "field"
-            },
-            {
-              "id": "47",
-              "type": "field"
-            },
-            {
-              "id": "48",
-              "type": "field"
-            },
-            {
-              "id": "50",
+              "id": "90",
               "type": "field"
             },
             {
               "id": "91",
               "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "5",
-      "type": "item_type",
-      "attributes": {
-        "name": "Servizi",
-        "singleton": false,
-        "sortable": true,
-        "api_key": "service_page",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
+            },
             {
-              "id": "51",
+              "id": "92",
               "type": "field"
             },
             {
-              "id": "52",
+              "id": "93",
               "type": "field"
             },
             {
-              "id": "53",
-              "type": "field"
-            },
-            {
-              "id": "54",
-              "type": "field"
-            },
-            {
-              "id": "85",
+              "id": "94",
               "type": "field"
             },
             {
@@ -741,13 +461,157 @@
       }
     },
     {
-      "id": "10",
+      "id": "19",
       "type": "item_type",
       "attributes": {
-        "name": "Progetti",
+        "name": "Voci di menu",
         "singleton": false,
         "sortable": true,
-        "api_key": "project_page",
+        "api_key": "submenu",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "98",
+              "type": "field"
+            },
+            {
+              "id": "99",
+              "type": "field"
+            },
+            {
+              "id": "100",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "18",
+      "type": "item_type",
+      "attributes": {
+        "name": "Menu di Navigazione",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "navigation",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "97",
+              "type": "field"
+            },
+            {
+              "id": "105",
+              "type": "field"
+            },
+            {
+              "id": "96",
+              "type": "field"
+            },
+            {
+              "id": "106",
+              "type": "field"
+            },
+            {
+              "id": "107",
+              "type": "field"
+            },
+            {
+              "id": "108",
+              "type": "field"
+            },
+            {
+              "id": "109",
+              "type": "field"
+            },
+            {
+              "id": "110",
+              "type": "field"
+            },
+            {
+              "id": "111",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "14",
+      "type": "item_type",
+      "attributes": {
+        "name": "Homepage",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "homepage",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "71",
+              "type": "field"
+            },
+            {
+              "id": "72",
+              "type": "field"
+            },
+            {
+              "id": "73",
+              "type": "field"
+            },
+            {
+              "id": "74",
+              "type": "field"
+            },
+            {
+              "id": "75",
+              "type": "field"
+            },
+            {
+              "id": "76",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "13",
+      "type": "item_type",
+      "attributes": {
+        "name": "Organizzazione",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "oragnization_page",
         "ordering_direction": null,
         "tree": false
       },
@@ -775,7 +639,239 @@
               "type": "field"
             },
             {
-              "id": "94",
+              "id": "66",
+              "type": "field"
+            },
+            {
+              "id": "67",
+              "type": "field"
+            },
+            {
+              "id": "68",
+              "type": "field"
+            },
+            {
+              "id": "69",
+              "type": "field"
+            },
+            {
+              "id": "70",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "9",
+      "type": "item_type",
+      "attributes": {
+        "name": "Carta d'identità",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "identity_card_page",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "31",
+              "type": "field"
+            },
+            {
+              "id": "32",
+              "type": "field"
+            },
+            {
+              "id": "33",
+              "type": "field"
+            },
+            {
+              "id": "34",
+              "type": "field"
+            },
+            {
+              "id": "35",
+              "type": "field"
+            },
+            {
+              "id": "36",
+              "type": "field"
+            },
+            {
+              "id": "37",
+              "type": "field"
+            },
+            {
+              "id": "38",
+              "type": "field"
+            },
+            {
+              "id": "39",
+              "type": "field"
+            },
+            {
+              "id": "40",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "10",
+      "type": "item_type",
+      "attributes": {
+        "name": "Materie e schede didattiche",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "school_subject_page",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "41",
+              "type": "field"
+            },
+            {
+              "id": "42",
+              "type": "field"
+            },
+            {
+              "id": "43",
+              "type": "field"
+            },
+            {
+              "id": "44",
+              "type": "field"
+            },
+            {
+              "id": "45",
+              "type": "field"
+            },
+            {
+              "id": "46",
+              "type": "field"
+            },
+            {
+              "id": "47",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "11",
+      "type": "item_type",
+      "attributes": {
+        "name": "Contatti",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "contact_page",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "48",
+              "type": "field"
+            },
+            {
+              "id": "49",
+              "type": "field"
+            },
+            {
+              "id": "50",
+              "type": "field"
+            },
+            {
+              "id": "51",
+              "type": "field"
+            },
+            {
+              "id": "52",
+              "type": "field"
+            },
+            {
+              "id": "53",
+              "type": "field"
+            },
+            {
+              "id": "54",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "12",
+      "type": "item_type",
+      "attributes": {
+        "name": "Orari delle lezioni",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "teaching_hour_page",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "55",
+              "type": "field"
+            },
+            {
+              "id": "56",
+              "type": "field"
+            },
+            {
+              "id": "57",
+              "type": "field"
+            },
+            {
+              "id": "58",
+              "type": "field"
+            },
+            {
+              "id": "59",
+              "type": "field"
+            },
+            {
+              "id": "60",
               "type": "field"
             }
           ]
@@ -791,1864 +887,7 @@
   ],
   "included": [
     {
-      "id": "24",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "7",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "25",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "24",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "7",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "40",
-      "type": "field",
-      "attributes": {
-        "label": "Copertina",
-        "field_type": "image",
-        "api_key": "cover",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "7",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "41",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "7",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "42",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo pagina",
-        "field_type": "text",
-        "api_key": "body",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 5,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "7",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "43",
-      "type": "field",
-      "attributes": {
-        "label": "Galleria di foto",
-        "field_type": "gallery",
-        "api_key": "gallery",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 6,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "7",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "87",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 7,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "7",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "6",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "11",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "7",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 2,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "11",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "8",
-      "type": "field",
-      "attributes": {
-        "label": "Testo pulsante",
-        "field_type": "string",
-        "api_key": "button_label",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 3,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "11",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "9",
-      "type": "field",
-      "attributes": {
-        "label": "Link pulsante",
-        "field_type": "string",
-        "api_key": "button_link",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "format": {
-            "predefined_pattern": "url"
-          }
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "11",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "11",
-      "type": "field",
-      "attributes": {
-        "label": "Immagine come background?",
-        "field_type": "boolean",
-        "api_key": "immagine_come_background",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 5,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "11",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "10",
-      "type": "field",
-      "attributes": {
-        "label": "Copertina o background",
-        "field_type": "image",
-        "api_key": "image",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 6,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "11",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "21",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "12",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "22",
-      "type": "field",
-      "attributes": {
-        "label": "Descrizione breve",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 2,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "12",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "23",
-      "type": "field",
-      "attributes": {
-        "label": "Allegato",
-        "field_type": "file",
-        "api_key": "attachment",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          },
-          "extension": {
-            "extensions": [
-              "pdf"
-            ]
-          }
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "12",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "49",
-      "type": "field",
-      "attributes": {
-        "label": "Nome",
-        "field_type": "string",
-        "api_key": "name",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "13",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "55",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo Blocco",
-        "field_type": "string",
-        "api_key": "text_title",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "14",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "56",
-      "type": "field",
-      "attributes": {
-        "label": "Ancora",
-        "field_type": "slug",
-        "api_key": "anchor",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "55",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "14",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "57",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo del blocco",
-        "field_type": "text",
-        "api_key": "text_body",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 3,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "14",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "58",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo blocco",
-        "field_type": "string",
-        "api_key": "document_block_title",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "15",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "59",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione blocco",
-        "field_type": "text",
-        "api_key": "document_block_abstract",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "15",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "60",
-      "type": "field",
-      "attributes": {
-        "label": "Documenti",
-        "field_type": "rich_text",
-        "api_key": "documents",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "12"
-            ]
-          }
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "15",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "66",
-      "type": "field",
-      "attributes": {
-        "label": "Nome e Cognome",
-        "field_type": "string",
-        "api_key": "full_name",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "16",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "69",
-      "type": "field",
-      "attributes": {
-        "label": "Foto",
-        "field_type": "image",
-        "api_key": "avatar",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 2,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "16",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "67",
-      "type": "field",
-      "attributes": {
-        "label": "Ruolo",
-        "field_type": "string",
-        "api_key": "role",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 3,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "16",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "68",
-      "type": "field",
-      "attributes": {
-        "label": "Descrizione breve",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "16",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "81",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "17",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "82",
-      "type": "field",
-      "attributes": {
-        "label": "Descrizione breve",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 2,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "17",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "83",
-      "type": "field",
-      "attributes": {
-        "label": "Personale",
-        "field_type": "rich_text",
-        "api_key": "staff",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "16"
-            ]
-          }
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "17",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "12",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "13",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "12",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "14",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 3,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "15",
-      "type": "field",
-      "attributes": {
-        "label": "Copertina",
-        "field_type": "image",
-        "api_key": "cover",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 4,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "16",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo pagina",
-        "field_type": "text",
-        "api_key": "body",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 5,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "17",
-      "type": "field",
-      "attributes": {
-        "label": "Galleria di foto",
-        "field_type": "gallery",
-        "api_key": "gallery",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 6,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "18",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo Sezione Documenti",
-        "field_type": "string",
-        "api_key": "document_title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 7,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "19",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione sezione documenti",
-        "field_type": "text",
-        "api_key": "document_abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 8,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "20",
-      "type": "field",
-      "attributes": {
-        "label": "Documenti",
-        "field_type": "rich_text",
-        "api_key": "document",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "12"
-            ]
-          }
-        },
-        "position": 9,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "86",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 10,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "2",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "75",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "9",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "76",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "75",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "9",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "77",
-      "type": "field",
-      "attributes": {
-        "label": "Copertina",
-        "field_type": "image",
-        "api_key": "cover",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "9",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "78",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "9",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "79",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo pagina",
-        "field_type": "text",
-        "api_key": "body",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 5,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "9",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "80",
-      "type": "field",
-      "attributes": {
-        "label": "Materie",
-        "field_type": "rich_text",
-        "api_key": "subjects",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "14"
-            ]
-          }
-        },
-        "position": 6,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "9",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "90",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 7,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "9",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "34",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "4",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "35",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "34",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "4",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "36",
-      "type": "field",
-      "attributes": {
-        "label": "Posizione sulla mappa",
-        "field_type": "lat_lon",
-        "api_key": "location",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "4",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "37",
-      "type": "field",
-      "attributes": {
-        "label": "Indirizzo",
-        "field_type": "string",
-        "api_key": "address",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "4",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "38",
-      "type": "field",
-      "attributes": {
-        "label": "Telefono",
-        "field_type": "string",
-        "api_key": "phone",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 5,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "4",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "39",
-      "type": "field",
-      "attributes": {
-        "label": "Email principale",
-        "field_type": "string",
-        "api_key": "primary_email",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "format": {
-            "predefined_pattern": "email"
-          }
-        },
-        "position": 6,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "4",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "88",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 7,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "4",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "70",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "8",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "71",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "70",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "8",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "72",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 3,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "8",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "73",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo pagina",
-        "field_type": "text",
-        "api_key": "body",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "8",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "74",
-      "type": "field",
-      "attributes": {
-        "label": "Allegato",
-        "field_type": "file",
-        "api_key": "attachment",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "extension": {
-            "extensions": [
-              "pdf"
-            ]
-          }
-        },
-        "position": 5,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "8",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "92",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 6,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "8",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "26",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "27",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "26",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "28",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 3,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "29",
-      "type": "field",
-      "attributes": {
-        "label": "Copertina",
-        "field_type": "image",
-        "api_key": "cover",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 4,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "30",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo pagina",
-        "field_type": "text",
-        "api_key": "body",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 5,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "31",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo Sezione Documenti",
-        "field_type": "string",
-        "api_key": "document_title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 6,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "32",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione sezione documenti",
-        "field_type": "text",
-        "api_key": "document_abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 7,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "33",
-      "type": "field",
-      "attributes": {
-        "label": "Documenti",
-        "field_type": "rich_text",
-        "api_key": "document",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "12"
-            ]
-          }
-        },
-        "position": 8,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "84",
-      "type": "field",
-      "attributes": {
-        "label": "Personale scolastico",
-        "field_type": "rich_text",
-        "api_key": "staff",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "17"
-            ]
-          }
-        },
-        "position": 9,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "93",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 10,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "3",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "2",
+      "id": "1",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -2675,21 +914,24 @@
       }
     },
     {
-      "id": "1",
+      "id": "2",
       "type": "field",
       "attributes": {
-        "label": "Presentazione",
-        "field_type": "string",
-        "api_key": "abstract",
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
         "hint": null,
         "localized": true,
         "validators": {
           "required": {
+          },
+          "unique": {
           }
         },
         "position": 2,
         "appeareance": {
-          "type": "title"
+          "title_field_id": "1",
+          "url_prefix": null
         }
       },
       "relationships": {
@@ -2705,16 +947,17 @@
       "id": "3",
       "type": "field",
       "attributes": {
-        "label": "Titolo fascia servizi",
-        "field_type": "string",
-        "api_key": "service_title",
+        "label": "Copertina",
+        "field_type": "image",
+        "api_key": "cover",
         "hint": null,
-        "localized": true,
+        "localized": false,
         "validators": {
+          "required": {
+          }
         },
         "position": 3,
         "appeareance": {
-          "type": "plain"
         }
       },
       "relationships": {
@@ -2730,9 +973,9 @@
       "id": "4",
       "type": "field",
       "attributes": {
-        "label": "Introduzione servizi",
+        "label": "Introduzione",
         "field_type": "text",
-        "api_key": "service_abstract",
+        "api_key": "abstract",
         "hint": null,
         "localized": true,
         "validators": {
@@ -2755,17 +998,192 @@
       "id": "5",
       "type": "field",
       "attributes": {
-        "label": "Blocchi Scuola e Didattica",
-        "field_type": "rich_text",
-        "api_key": "school_didactic_block",
+        "label": "Corpo pagina",
+        "field_type": "text",
+        "api_key": "body",
         "hint": null,
         "localized": true,
         "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "11"
-            ]
+          "required": {
           }
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "1",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "6",
+      "type": "field",
+      "attributes": {
+        "label": "Galleria di foto",
+        "field_type": "gallery",
+        "api_key": "gallery",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 6,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "1",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "7",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "1",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "8",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "2",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "9",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 2,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "2",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "10",
+      "type": "field",
+      "attributes": {
+        "label": "Testo pulsante",
+        "field_type": "string",
+        "api_key": "button_label",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "2",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "11",
+      "type": "field",
+      "attributes": {
+        "label": "Link pulsante",
+        "field_type": "string",
+        "api_key": "button_link",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "format": {
+            "predefined_pattern": "url"
+          }
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "2",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "12",
+      "type": "field",
+      "attributes": {
+        "label": "Immagine come background?",
+        "field_type": "boolean",
+        "api_key": "immagine_come_background",
+        "hint": null,
+        "localized": false,
+        "validators": {
         },
         "position": 5,
         "appeareance": {
@@ -2774,7 +1192,820 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "1",
+            "id": "2",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "13",
+      "type": "field",
+      "attributes": {
+        "label": "Copertina o background",
+        "field_type": "image",
+        "api_key": "image",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 6,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "2",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "14",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "3",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "15",
+      "type": "field",
+      "attributes": {
+        "label": "Descrizione breve",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 2,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "3",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "16",
+      "type": "field",
+      "attributes": {
+        "label": "Allegato",
+        "field_type": "file",
+        "api_key": "attachment",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          },
+          "extension": {
+            "extensions": [
+              "pdf"
+            ]
+          }
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "3",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "17",
+      "type": "field",
+      "attributes": {
+        "label": "Nome",
+        "field_type": "string",
+        "api_key": "name",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "4",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "18",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo Blocco",
+        "field_type": "string",
+        "api_key": "text_title",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "5",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "19",
+      "type": "field",
+      "attributes": {
+        "label": "Ancora",
+        "field_type": "slug",
+        "api_key": "anchor",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "18",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "5",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "20",
+      "type": "field",
+      "attributes": {
+        "label": "Corpo del blocco",
+        "field_type": "text",
+        "api_key": "text_body",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "5",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "21",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo blocco",
+        "field_type": "string",
+        "api_key": "document_block_title",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "6",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "22",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione blocco",
+        "field_type": "text",
+        "api_key": "document_block_abstract",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "6",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "23",
+      "type": "field",
+      "attributes": {
+        "label": "Documenti",
+        "field_type": "rich_text",
+        "api_key": "documents",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "3"
+            ]
+          }
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "6",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "24",
+      "type": "field",
+      "attributes": {
+        "label": "Nome e Cognome",
+        "field_type": "string",
+        "api_key": "full_name",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "7",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "25",
+      "type": "field",
+      "attributes": {
+        "label": "Foto",
+        "field_type": "image",
+        "api_key": "avatar",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 2,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "7",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "26",
+      "type": "field",
+      "attributes": {
+        "label": "Ruolo",
+        "field_type": "string",
+        "api_key": "role",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "7",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "27",
+      "type": "field",
+      "attributes": {
+        "label": "Descrizione breve",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "7",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "28",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "8",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "29",
+      "type": "field",
+      "attributes": {
+        "label": "Descrizione breve",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 2,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "8",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "30",
+      "type": "field",
+      "attributes": {
+        "label": "Personale",
+        "field_type": "rich_text",
+        "api_key": "staff",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "7"
+            ]
+          }
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "8",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "77",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "15",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "78",
+      "type": "field",
+      "attributes": {
+        "label": "slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "77",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "15",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "79",
+      "type": "field",
+      "attributes": {
+        "label": "Copertina",
+        "field_type": "image",
+        "api_key": "cover",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "15",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "80",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "15",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "81",
+      "type": "field",
+      "attributes": {
+        "label": "Corpo pagina",
+        "field_type": "text",
+        "api_key": "body",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "15",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "82",
+      "type": "field",
+      "attributes": {
+        "label": "Argomenti",
+        "field_type": "links",
+        "api_key": "tags",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "items_item_type": {
+            "item_types": [
+              "4"
+            ]
+          }
+        },
+        "position": 6,
+        "appeareance": {
+          "type": "select"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "15",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "83",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "15",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "84",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "16",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "85",
+      "type": "field",
+      "attributes": {
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "84",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "16",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "86",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "16",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "87",
+      "type": "field",
+      "attributes": {
+        "label": "Contenuto Modulare",
+        "field_type": "rich_text",
+        "api_key": "modular_content",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "5",
+              "6"
+            ]
+          }
+        },
+        "position": 4,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "16",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "88",
+      "type": "field",
+      "attributes": {
+        "label": "Corpo pagina",
+        "field_type": "text",
+        "api_key": "body",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "16",
             "type": "item_type"
           }
         }
@@ -2798,14 +2029,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "1",
+            "id": "16",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "44",
+      "id": "90",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -2825,17 +2056,17 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "6",
+            "id": "17",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "45",
+      "id": "91",
       "type": "field",
       "attributes": {
-        "label": "slug",
+        "label": "Slug",
         "field_type": "slug",
         "api_key": "slug",
         "hint": null,
@@ -2848,21 +2079,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "44",
+          "title_field_id": "90",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "6",
+            "id": "17",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "46",
+      "id": "92",
       "type": "field",
       "attributes": {
         "label": "Copertina",
@@ -2881,39 +2112,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "6",
+            "id": "17",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "47",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "6",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "48",
+      "id": "93",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -2925,7 +2131,7 @@
           "required": {
           }
         },
-        "position": 5,
+        "position": 4,
         "appeareance": {
           "type": "wysiwyg"
         }
@@ -2933,153 +2139,17 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "6",
+            "id": "17",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "50",
+      "id": "94",
       "type": "field",
       "attributes": {
-        "label": "Argomenti",
-        "field_type": "links",
-        "api_key": "tags",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "items_item_type": {
-            "item_types": [
-              "13"
-            ]
-          }
-        },
-        "position": 6,
-        "appeareance": {
-          "type": "select"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "6",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "91",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 7,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "6",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "51",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "5",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "52",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": false,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "51",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "5",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "53",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 3,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "5",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "54",
-      "type": "field",
-      "attributes": {
-        "label": "Contenuto Modulare",
+        "label": "Contenuti Modulari",
         "field_type": "rich_text",
         "api_key": "modular_content",
         "hint": null,
@@ -3087,44 +2157,19 @@
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "14",
-              "15"
+              "5",
+              "6"
             ]
           }
         },
-        "position": 4,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "5",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "85",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo pagina",
-        "field_type": "text",
-        "api_key": "body",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
         "position": 5,
         "appeareance": {
-          "type": "wysiwyg"
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "5",
+            "id": "17",
             "type": "item_type"
           }
         }
@@ -3148,7 +2193,512 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "5",
+            "id": "17",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "98",
+      "type": "field",
+      "attributes": {
+        "label": "Nome Voce",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "19",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "99",
+      "type": "field",
+      "attributes": {
+        "label": "Pagine Dinamiche",
+        "field_type": "link",
+        "api_key": "reference_page",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "item_item_type": {
+            "item_types": [
+              "15",
+              "16",
+              "17",
+              "1"
+            ]
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "type": "select"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "19",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "100",
+      "type": "field",
+      "attributes": {
+        "label": "Url pagina singola",
+        "field_type": "string",
+        "api_key": "reference_url",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "19",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "97",
+      "type": "field",
+      "attributes": {
+        "label": "Nome Sito",
+        "field_type": "string",
+        "api_key": "site_name",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "105",
+      "type": "field",
+      "attributes": {
+        "label": "Prima voce di menu",
+        "field_type": "string",
+        "api_key": "first_level",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "96",
+      "type": "field",
+      "attributes": {
+        "label": "Sottomenu Prima Voce",
+        "field_type": "rich_text",
+        "api_key": "first_level_submenu",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "19"
+            ]
+          }
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "106",
+      "type": "field",
+      "attributes": {
+        "label": "Seconda voce di menu",
+        "field_type": "string",
+        "api_key": "second_level",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "107",
+      "type": "field",
+      "attributes": {
+        "label": "Sottomenu Seconda Voce",
+        "field_type": "rich_text",
+        "api_key": "second_level_submenu",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "19"
+            ]
+          }
+        },
+        "position": 5,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "108",
+      "type": "field",
+      "attributes": {
+        "label": "Terza Voce di menu",
+        "field_type": "string",
+        "api_key": "third_level",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 6,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "109",
+      "type": "field",
+      "attributes": {
+        "label": "Sottomenu Terza Voce",
+        "field_type": "rich_text",
+        "api_key": "third_level_submenu",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "19"
+            ]
+          }
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "110",
+      "type": "field",
+      "attributes": {
+        "label": "Quarta Voce di menu",
+        "field_type": "string",
+        "api_key": "fourth_level",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 8,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "111",
+      "type": "field",
+      "attributes": {
+        "label": "Sottomenu Quarta Voce",
+        "field_type": "rich_text",
+        "api_key": "fourth_level_submenu",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "19"
+            ]
+          }
+        },
+        "position": 9,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "18",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "71",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "14",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "72",
+      "type": "field",
+      "attributes": {
+        "label": "Presentazione",
+        "field_type": "string",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "14",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "73",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo fascia servizi",
+        "field_type": "string",
+        "api_key": "service_title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "14",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "74",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione servizi",
+        "field_type": "text",
+        "api_key": "service_abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "14",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "75",
+      "type": "field",
+      "attributes": {
+        "label": "Blocchi Scuola e Didattica",
+        "field_type": "rich_text",
+        "api_key": "school_didactic_block",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "2"
+            ]
+          }
+        },
+        "position": 5,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "14",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "76",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 6,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "14",
             "type": "item_type"
           }
         }
@@ -3175,7 +2725,7 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "10",
+            "id": "13",
             "type": "item_type"
           }
         }
@@ -3205,7 +2755,7 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "10",
+            "id": "13",
             "type": "item_type"
           }
         }
@@ -3213,6 +2763,31 @@
     },
     {
       "id": "63",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "64",
       "type": "field",
       "attributes": {
         "label": "Copertina",
@@ -3223,6 +2798,504 @@
         "validators": {
           "required": {
           }
+        },
+        "position": 4,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "65",
+      "type": "field",
+      "attributes": {
+        "label": "Corpo pagina",
+        "field_type": "text",
+        "api_key": "body",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "66",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo Sezione Documenti",
+        "field_type": "string",
+        "api_key": "document_title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 6,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "67",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione sezione documenti",
+        "field_type": "text",
+        "api_key": "document_abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "68",
+      "type": "field",
+      "attributes": {
+        "label": "Documenti",
+        "field_type": "rich_text",
+        "api_key": "document",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "3"
+            ]
+          }
+        },
+        "position": 8,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "69",
+      "type": "field",
+      "attributes": {
+        "label": "Personale scolastico",
+        "field_type": "rich_text",
+        "api_key": "staff",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "8"
+            ]
+          }
+        },
+        "position": 9,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "70",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 10,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "13",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "31",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "32",
+      "type": "field",
+      "attributes": {
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "31",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "33",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "34",
+      "type": "field",
+      "attributes": {
+        "label": "Copertina",
+        "field_type": "image",
+        "api_key": "cover",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 4,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "35",
+      "type": "field",
+      "attributes": {
+        "label": "Corpo pagina",
+        "field_type": "text",
+        "api_key": "body",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "36",
+      "type": "field",
+      "attributes": {
+        "label": "Galleria di foto",
+        "field_type": "gallery",
+        "api_key": "gallery",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 6,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "37",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo Sezione Documenti",
+        "field_type": "string",
+        "api_key": "document_title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "38",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione sezione documenti",
+        "field_type": "text",
+        "api_key": "document_abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 8,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "39",
+      "type": "field",
+      "attributes": {
+        "label": "Documenti",
+        "field_type": "rich_text",
+        "api_key": "document",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "3"
+            ]
+          }
+        },
+        "position": 9,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "40",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 10,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "9",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "41",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "10",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "42",
+      "type": "field",
+      "attributes": {
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "41",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "10",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "43",
+      "type": "field",
+      "attributes": {
+        "label": "Copertina",
+        "field_type": "image",
+        "api_key": "cover",
+        "hint": null,
+        "localized": false,
+        "validators": {
         },
         "position": 3,
         "appeareance": {
@@ -3238,7 +3311,379 @@
       }
     },
     {
-      "id": "64",
+      "id": "44",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "10",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "45",
+      "type": "field",
+      "attributes": {
+        "label": "Corpo pagina",
+        "field_type": "text",
+        "api_key": "body",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "10",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "46",
+      "type": "field",
+      "attributes": {
+        "label": "Materie",
+        "field_type": "rich_text",
+        "api_key": "subjects",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "5"
+            ]
+          }
+        },
+        "position": 6,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "10",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "47",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "10",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "48",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "11",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "49",
+      "type": "field",
+      "attributes": {
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "48",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "11",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "50",
+      "type": "field",
+      "attributes": {
+        "label": "Posizione sulla mappa",
+        "field_type": "lat_lon",
+        "api_key": "location",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "11",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "51",
+      "type": "field",
+      "attributes": {
+        "label": "Indirizzo",
+        "field_type": "string",
+        "api_key": "address",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "11",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "52",
+      "type": "field",
+      "attributes": {
+        "label": "Telefono",
+        "field_type": "string",
+        "api_key": "phone",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "11",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "53",
+      "type": "field",
+      "attributes": {
+        "label": "Email principale",
+        "field_type": "string",
+        "api_key": "primary_email",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "format": {
+            "predefined_pattern": "email"
+          }
+        },
+        "position": 6,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "11",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "54",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "11",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "55",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "12",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "56",
+      "type": "field",
+      "attributes": {
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "55",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "12",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "57",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "12",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "58",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -3258,26 +3703,25 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "10",
+            "id": "12",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "65",
+      "id": "59",
       "type": "field",
       "attributes": {
-        "label": "Contenuti Modulari",
-        "field_type": "rich_text",
-        "api_key": "modular_content",
+        "label": "Allegato",
+        "field_type": "file",
+        "api_key": "attachment",
         "hint": null,
-        "localized": true,
+        "localized": false,
         "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "14",
-              "15"
+          "extension": {
+            "extensions": [
+              "pdf"
             ]
           }
         },
@@ -3288,14 +3732,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "10",
+            "id": "12",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "94",
+      "id": "60",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -3312,7 +3756,7 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "10",
+            "id": "12",
             "type": "item_type"
           }
         }
