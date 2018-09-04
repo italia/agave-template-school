@@ -12,7 +12,8 @@
     "build": "yarn build:agave && yarn build:jekyll && yarn build:assets",
     "start:jekyll": "bundle exec jekyll server --incremental",
     "start:livereload": "livereload public -p 5678 -d",
-    "start:agave": "agave dump --watch"
+    "start:agave": "agave dump --watch",
+    "start": "agave check && concurrently -p \"[{name}]\" -c \"blue,red,green,yellow\" -k -n jekyll,webpack,livereload,agave \"yarn start:jekyll\" \"yarn start:assets\" \"yarn start:livereload\" \"yarn start:agave\""
   },
   "devDependencies": {
     "bootstrap-italia": "^0.10.2",
