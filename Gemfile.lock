@@ -1,7 +1,6 @@
 GIT
   remote: https://gitlab.cantierecreativo.net/agid/ruby-agave-client.git
-  revision: cf04dd2de3130675e6d79ce18ecadf0f2b28141d
-  branch: feature/deep_hashify_items
+  revision: 8d62e366b75dc5bbd2c5cdabff5db077a0c6a7a7
   specs:
     agave (0.6.6)
       activesupport (>= 4.2.7)
