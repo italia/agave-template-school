@@ -4,10 +4,10 @@ This repo contains a working static website written with [Jekyll](https://jekyll
 
 ## Usage
 
-First, install the dependencies of this project:
+First, install the RUBY and NODE dependencies of this project:
 
 ```
-budle
+bundle
 yarn
 ```
 
