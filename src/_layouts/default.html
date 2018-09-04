@@ -11,13 +11,16 @@
         {{ tag | tagify }}
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/assets/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css" rel="stylesheet">
   </head>
   <body>
+    {% include header.html %}
 
     {{ content }}
 
-    <script src="/assets/all.js"></script>
+    {% include footer.html %}
+
+    <script src="/assets/js/application.js"></script>
     {% if jekyll.environment == "development" %}
       <script src="http://localhost:5678/livereload.js"></script>
     {% endif %}
