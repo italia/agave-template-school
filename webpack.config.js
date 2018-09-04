@@ -1,17 +1,18 @@
 const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const autoprefixer = require("autoprefixer");
 
 const extractSass = new ExtractTextPlugin({
   filename: "css/[name].css",
   disable: process.env.NODE_ENV === "development"
-});
+})
 
 module.exports = {
   entry: {
     application: './assets/js/index.js',
-    styles: './assets/scss/application.sass'
+    styles: './assets/sass/application.sass'
   },
   resolve: {
     modules: [
@@ -23,9 +24,20 @@ module.exports = {
     }
   },
   output: {
-    path: path.resolve(__dirname, './public/assets'),
+    path: path.resolve(__dirname, (process.env.NODE_ENV === "development") ? './src/assets' : './public/assets'),
     filename: 'js/[name].js',
     publicPath: '/assets'
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        uglifyOptions: {
+          warnings: false,
+          compress: true,
+          comments: false,
+        }
+      })
+    ]
   },
   module: {
     rules: [
@@ -77,10 +89,6 @@ module.exports = {
       $: "jquery", // Used for Bootstrap JavaScript components
       jQuery: "jquery", // Used for Bootstrap JavaScript components
       Popper: ['popper.js', 'default'] // Used for Bootstrap dropdown, popup and tooltip JavaScript components
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false },
-      comments: false,
     })
   ]
 };
