@@ -1,0 +1,30 @@
+{
+  "name": "agave-template-school",
+  "version": "1.0.0",
+  "description": "Example School site",
+  "main": "index.js",
+  "author": "damjack <giacomello.damiano@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:jekyll": "JEKYLL_ENV=production bundle exec jekyll build",
+    "build:assets": "NODE_ENV=production webpack -p --config webpack.config.js",
+    "build:agave": "agave dump",
+    "build": "yarn build:agave && yarn build:jekyll && yarn build:assets",
+    "start:jekyll": "bundle exec jekyll server --incremental",
+    "start:livereload": "livereload public -p 5678 -d",
+    "start:agave": "agave dump --watch"
+  },
+  "devDependencies": {
+    "bootstrap-italia": "^0.10.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "import-glob-loader": "^1.1.0",
+    "livereload": "^0.7.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
