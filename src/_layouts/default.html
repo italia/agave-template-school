@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ site.data.settings.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% for tag in site.data.settings.favicon_meta_tags %}
+      {{ tag | tagify }}
+    {% endfor %}
+    {% if page.seo_meta_tags %}
+      {% for tag in page.seo_meta_tags %}
+        {{ tag | tagify }}
+      {% endfor %}
+    {% endif %}
+    <link rel="stylesheet" href="/assets/all.css" rel="stylesheet">
+  </head>
+  <body>
+
+    {{ content }}
+
+    <script src="/assets/all.js"></script>
+    {% if jekyll.environment == "development" %}
+      <script src="http://localhost:5678/livereload.js"></script>
+    {% endif %}
+  </body>
+</html>
