@@ -27,4 +27,14 @@ The final result will be saved in the `public` directory.
 
 ## Environment
 
-For application test, setup `AGAVECMS_BASE_URL` with `agave.lvh.me:3000` and `AGAVE_API_TOKEN` with your admin TOKEN.
+For application test, setup `AGAVECMS_BASE_URL` with `agave.lvh.me:3000` and `AGAVE_API_TOKEN` with your admin API KEY.
+
+## Test AGAVE API
+
+To test the Agave API lunch:
+
+```
+curl http://agave.lvh.me:3000/api/item-types -H "Authorization:Bearer AGAVE API KEY" -H "Accept:application/json"
+```
+
+Retrive the test output of the request into `curl_test.json`
