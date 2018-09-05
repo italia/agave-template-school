@@ -3,10 +3,7 @@ _site
 .jekyll-metadata
 
 node_modules/*
-src/_data
-src/_news
+src/_*
 src/assets/
 
-src/index.md
-src/about.md
-src/news.md
+src/*.md

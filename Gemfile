@@ -11,7 +11,7 @@ ruby ">= 2.4.0"
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.3"
 gem "octopress-paginate"
-gem "agave", git: "https://gitlab.cantierecreativo.net/agid/ruby-agave-client.git"
+gem "agave", git: "https://gitlab.cantierecreativo.net/agid/ruby-agave-client.git", branch: "feature/deep_hashify_items"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
