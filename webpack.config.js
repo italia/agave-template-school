@@ -24,7 +24,7 @@ module.exports = {
     }
   },
   output: {
-    path: path.resolve(__dirname, (process.env.NODE_ENV === "development") ? './src/assets' : './public/assets'),
+    path: path.resolve(__dirname, (process.env.NODE_ENV === "development") ? './src/assets' : '../build/assets'),
     filename: 'js/[name].js',
     publicPath: '/assets'
   },
