@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<main role="main">
+  <section class="container">
+    <div class="row">
+      {% for post in paginator.posts %}
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              
+            </div>
+            <div class="card-body">
+              {{ post.content }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>

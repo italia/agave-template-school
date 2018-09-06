@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<main role="main">
+  <section class="container">
+    <div class="row">
+      {% for communication in paginator.communications %}
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              
+            </div>
+            <div class="card-body">
+              {{ communication.content }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>

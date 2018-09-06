@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<main role="main">
+  <section class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="row pt-5">
+      <div class="col-12 col-sm-3">
+        <div class="link-list-wrapper sticky-top">
+           <ul class="link-list">
+             <li>
+                <span class="divider"></span>
+              </li>
+             {% for block in page.text_blocks %}
+              <li>
+                <a class="list-item" href="#{{ block.anchor }}"><span>{{ block.title }}</span></a>
+              </li>
+              <li>
+                <span class="divider"></span>
+              </li>
+              {% endfor %}
+           </ul>
+        </div>
+      </div>
+      <div class="col-12 col-sm-9">
+        <div class="collapse-div">
+        {% for block in page.text_blocks %}
+          <div id="{{ block.anchor }}" class="collapse-header">
+            <h4>{{ block.title }}</h4>
+          </div>
+          <div class="collapse show">
+            <div class="collapse-body">
+              {{ block.text_body }}
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    <div class="body_text">
+      {{ page.content }}
+    </div>
+  </section>
+</main>
