@@ -10,22 +10,58 @@ layout: default
     </div>
   </section>
   <section class="container">
+    <h2>Notizie</h2>
     <div class="row pb-5">
       {% for post in page.posts limit: 4 %}
-        <div class="col-12 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="{{ post.cover.url }}" />
+        <div class="col-12 col-sm-3">
+          <div class="card mb-3">
+            <img class="card-img-top" src="{{ post.cover }}" />
             <div class="card-body">
-              <h4 class="card-title">{{ post.title }}</h4>
+              <h5 class="card-title">{{ post.title }}</h5>
               <div class="body_text">{{ post.abstract }}</div>
-              <a href="/post/{{ post.slug }}" class="btn btn-primary">Vai</a>
+              <a href="/posts/{{ post.slug }}" class="btn btn-primary btn-block">Vai</a>
             </div>
           </div>
         </div>
       {% endfor %}
     </div>
+  </section>
+  <section class="container">
+    <h2>Approfondimenti</h2>
+    <div class="row pb-5">
+      {% for block in page.blocks %}
+        <div class="col-12 col-sm-6">
+          <div class="card mb-3">
+            <img class="card-img-top" src="{{ block.image }}" />
+            <div class="card-body">
+              <h4 class="card-title">{{ block.title }}</h4>
+              <div class="body_text">{{ block.abstract }}</div>
+              <a href="/{{ block.button_link }}" class="btn btn-primary">{{ block.button_label }}</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
     <div class="body_text">
       {{ page.content }}
+    </div>
+  </section>
+  <section class="container">
+    <h2 class="text-center">{{ page.service_title }}</h2>
+    <div class="text-center">{{ page.service_abstract }}</div>
+    <div class="row">
+      {% for service in page.services %}
+        <div class="col-12 col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title text-danger">{{ service.title }}</h4>
+              <div class="body_text">{{ service.abstract }}</div>
+              <a href="/service/{{ service.slug }}" class="btn btn-outline-danger">Vai</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </section>
 </main>

@@ -4,15 +4,16 @@ layout: default
 
 <main role="main">
   <section class="container">
+    <h1>{{ page.title }}</h1>
     <div class="row">
-      {% for communication in paginator.communications %}
+      {% for comm in page.communications %}
         <div class="col-12 col-sm-6">
-          <div class="card">
-            <div class="card-header">
-              
-            </div>
+          <div class="card mb-3">
+            <img class="card-img-top" src="{{ comm.cover }}" />
             <div class="card-body">
-              {{ communication.content }}
+              <h4 class="card-title">{{ comm.title }}</h4>
+              <div class="body_text">{{ comm.abstract }}</div>
+              <a href="/communication/{{ comm.slug }}" class="btn btn-primary">Vai</a>
             </div>
           </div>
         </div>

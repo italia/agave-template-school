@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<main role="main">
+  <section class="container">
+    <div class="row">
+      <div class="col-12 col-sm-5">
+        <h1 class="w-75">{{ page.title }}</h1>
+      </div>
+      <div class="col-12 col-sm-7">
+        <img class="card-img-top" src="{{ page.cover }}" />
+      </div>
+    </div>
+    <div class="row mt-3 mb-5">
+      <div class="col-12">
+        {{ page.content }}
+      </div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          {% for image in page.gallery %}
+          <div class="carousel-item{% if forloop.first %} active{% endif %}">
+            <img class="d-block w-100" src="{{ image }}" />
+          </div>
+          {% endfor %}
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Precedente</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Successivo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
