@@ -3,27 +3,22 @@ layout: default
 ---
 
 <main role="main">
-  <section class="container">
-    <h1>{{ page.title }}</h1>
-    <div class="body_text">
-      {{ page.content }}
+  <section class="hero hero-fluid p-5">
+    <div class="container">
+      <h1 class="white-color pt-5 w-50">{{ page.title }}</h1>
+      <p class="white-color pb-5">{{ page.abstract }}</p>
     </div>
   </section>
-</main>
-<main role="main">
-  <section class="hero">
-    <h1>{{ page.title }}</h1>
-  </section>
   <section class="container">
-    <div class="row">
-      {% for post in site.posts limit: 4 %}
+    <div class="row pb-5">
+      {% for post in page.posts limit: 4 %}
         <div class="col-12 col-sm-6">
           <div class="card">
-            <div class="card-header">
-              
-            </div>
+            <img class="card-img-top" src="{{ post.cover.url }}" />
             <div class="card-body">
-              {{ post.content }}
+              <h4 class="card-title">{{ post.title }}</h4>
+              <div class="body_text">{{ post.abstract }}</div>
+              <a href="/post/{{ post.slug }}" class="btn btn-primary">Vai</a>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar-expand-md navbar-dark bg-header-footer">
   <div class="container">
     <a class="navbar-brand" href="#">MIUR</a>
   </div>
@@ -8,18 +8,22 @@
     <div class="row">
       <div class="col-8 col-md-6">
         <div class="media header-title">
-            <div class="media-body">
-              <h1 class="display-3">{{ site.data.settings.name }}</h1>
+          <a href="/" class="d-block">
+            <img class="img-fluid mr-3" data-src="images/logo.jpg" style="width: 100px" alt="logo" src="images/logo.jpg" data-holder-rendered="true">
+          </a>
+          <div class="media-body">
+            <a href="/" class="d-block">
+              <h1 class="display-3 w-50">{{ site.data.settings.name }}</h1>
               <small>{{ site.data.settings.intro }}</small>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg shadow mb-5">
   <div class="container">
-
     <div class="navbar-collapsable" id="navbarNavB">
       <div class="close-div">
         <button class="btn close-menu" type="button"><span class="it-close"></span>close
