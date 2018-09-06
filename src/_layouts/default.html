@@ -12,6 +12,7 @@
       {% endfor %}
     {% endif %}
     <link rel="stylesheet" href="/assets/css/styles.css" rel="stylesheet">
+
   </head>
   <body>
     {% include header.html %}
@@ -21,8 +22,12 @@
     {% include footer.html %}
 
     <script src="/assets/js/application.js"></script>
+    <script src="/assets/js/styles.js"></script>
     {% if jekyll.environment == "development" %}
       <script src="http://localhost:5678/livereload.js"></script>
     {% endif %}
+
+
+
   </body>
 </html>

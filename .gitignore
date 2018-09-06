@@ -1,6 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+.env
 
 node_modules/*
 src/_*
