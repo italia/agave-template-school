@@ -10,3 +10,27 @@ layout: default
     </div>
   </section>
 </main>
+<main role="main">
+  <section class="hero">
+    <h1>{{ page.title }}</h1>
+  </section>
+  <section class="container">
+    <div class="row">
+      {% for post in site.posts limit: 4 %}
+        <div class="col-12 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              
+            </div>
+            <div class="card-body">
+              {{ post.content }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="body_text">
+      {{ page.content }}
+    </div>
+  </section>
+</main>
