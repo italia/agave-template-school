@@ -1,8 +1,9 @@
 # Create a YAML data file to store global data about the site
 create_data_file "src/_data/settings.yml", :yaml,
-  name: agave.navigation.site_name,
+  name: (agave.navigation) ? agave.navigation.site_name : agave.homepage.title,
   intro: agave.homepage.abstract
 
+if agave.navigation
 create_data_file "src/_data/menu.yml", :yaml,
   [
     {
@@ -42,11 +43,12 @@ create_data_file "src/_data/menu.yml", :yaml,
       end
     }
   ]
+end
 
 # Create a markdown file from the content of the `home` item type
 create_post "src/index.md" do
   frontmatter :yaml, {
-    #seo_meta_tags: agave.homepage.seo_meta_tags,
+    seo_meta_tags: agave.homepage.seo_meta_tags,
     title: agave.homepage.title,
     abstract: agave.homepage.abstract,
     service_title: agave.homepage.service_title,
@@ -57,7 +59,7 @@ create_post "src/index.md" do
         abstract: sdb.abstract,
         button_label: sdb.button_label,
         button_link: sdb.button_link,
-        image: sdb.image.url
+        image: sdb.image.url(w: 800, h: 400, mode: "crop")
       }
     end,
     layout: 'home'
@@ -70,19 +72,19 @@ create_post "src/#{agave.identity_card_page.slug}.md" do
     title: agave.identity_card_page.title,
     slug: agave.identity_card_page.slug,
     abstract: agave.identity_card_page.abstract,
-    cover: agave.identity_card_page.cover.url(w: 1280),
+    cover: agave.identity_card_page.cover.url(w: 1280, h: 500, mode: "crop"),
     gallery: agave.identity_card_page.gallery.map do |image|
-      image.url
+      image.url(w: 1280, h: 500, mode: "crop")
     end,
     document_title: agave.identity_card_page.document_title,
     document_abstract: agave.identity_card_page.document_abstract,
     document: agave.identity_card_page.document,
     layout: 'about',
-    #seo_meta_tags: agave.identity_card_page.seo_meta_tags
+    seo_meta_tags: agave.identity_card_page.seo_meta_tags
   }
 
   content agave.identity_card_page.body
-end
+end if agave.identity_card_page
 
 # Create a markdown file from the content of the `contact_page` item type
 create_post "src/#{agave.contact_page.slug}.md" do
@@ -94,9 +96,9 @@ create_post "src/#{agave.contact_page.slug}.md" do
     phone: agave.contact_page.phone,
     primary_email: agave.contact_page.primary_email,
     layout: 'contact',
-    #seo_meta_tags: agave.contact_page.seo_meta_tags
+    seo_meta_tags: agave.contact_page.seo_meta_tags
   }
-end
+end if agave.contact_page
 
 # Create a markdown file from the content of the `school_subject_page` item type
 create_post "src/#{agave.school_subject_page.slug}.md" do
@@ -104,14 +106,14 @@ create_post "src/#{agave.school_subject_page.slug}.md" do
     title: agave.school_subject_page.title,
     slug: agave.school_subject_page.slug,
     abstract: agave.school_subject_page.abstract,
-    cover: agave.school_subject_page.cover,
+    cover: agave.school_subject_page.cover.url(w: 1280, h: 500, mode: "crop"),
     subjects: agave.school_subject_page.subjects,
     layout: 'about',
-    #seo_meta_tags: agave.school_subject_page.seo_meta_tags
+    seo_meta_tags: agave.school_subject_page.seo_meta_tags
   }
 
   content agave.school_subject_page.body
-end
+end if agave.school_subject_page
 
 # Create a markdown file from the content of the `teaching_hour_page` item type
 create_post "src/#{agave.teaching_hour_page.slug}.md" do
@@ -121,11 +123,11 @@ create_post "src/#{agave.teaching_hour_page.slug}.md" do
     abstract: agave.teaching_hour_page.abstract,
     attachment: agave.teaching_hour_page.attachment.url,
     layout: 'teaching_hour',
-    #seo_meta_tags: agave.teaching_hour_page.seo_meta_tags
+    seo_meta_tags: agave.teaching_hour_page.seo_meta_tags
   }
 
   content agave.teaching_hour_page.body
-end
+end if agave.teaching_hour_page
 
 # Create a markdown file from the content of the `oragnization_page` item type
 create_post "src/#{agave.oragnization_page.slug}.md" do
@@ -138,11 +140,11 @@ create_post "src/#{agave.oragnization_page.slug}.md" do
     document: agave.oragnization_page.document,
     staff: agave.oragnization_page.staff,
     layout: 'oragnization',
-    #seo_meta_tags: agave.oragnization_page.seo_meta_tags
+    seo_meta_tags: agave.oragnization_page.seo_meta_tags
   }
 
   content agave.oragnization_page.body
-end
+end if agave.oragnization_page
 
 #create_post "src/posts.md" do
 #  frontmatter :yaml, {
@@ -165,10 +167,10 @@ directory "src/_posts" do
         title: post.title,
         slug: post.slug,
         description: post.abstract,
-        cover: post.cover,
+        cover: post.cover.url(w: 1280, h: 500, mode: "crop"),
         tags: post.tags,
         position: index,
-        #seo_meta_tags: post.seo_meta_tags
+        seo_meta_tags: post.seo_meta_tags
       }
 
       content post.body
@@ -197,10 +199,12 @@ directory "src/_communications" do
         title: communication.title,
         slug: communication.slug,
         description: communication.abstract,
-        cover: communication.cover,
-        gallery: communication.gallery,
+        cover: communication.cover.url(w: 1280, h: 500, mode: "crop"),
+        gallery: communication.gallery.map do |image|
+          image.url(w: 1280, h: 500, mode: "crop")
+        end,
         position: index,
-        #seo_meta_tags: communication.seo_meta_tags
+        seo_meta_tags: communication.seo_meta_tags
       }
 
       content communication.body
