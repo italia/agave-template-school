@@ -1256,7 +1256,7 @@
       "attributes": {
         "label": "Immagine come background?",
         "field_type": "boolean",
-        "api_key": "immagine_come_background",
+        "api_key": "use_background",
         "hint": null,
         "localized": false,
         "validators": {
