@@ -53,22 +53,30 @@ create_post "src/index.md" do
     abstract: agave.homepage.abstract,
     service_title: agave.homepage.service_title,
     service_abstract: agave.homepage.service_abstract,
-    school_didactic_block: agave.homepage.school_didactic_block.map do |sdb|
+    blocks: agave.homepage.school_didactic_block.map do |sdb|
       {
         title: sdb.title,
         abstract: sdb.abstract,
         button_label: sdb.button_label,
         button_link: sdb.button_link,
-        image: sdb.image.url(w: 800, h: 400, mode: "crop")
+        image: sdb.image.url(w: 700, h: 300, mode: "crop"),
+        use_bg: sdb.use_background
       }
     end,
     layout: 'home',
-    posts: agave.posts.each do |post|
+    posts: agave.posts.map do |post|
       {
         title: post.title,
         abstract: post.abstract,
-        cover: post.cover.url(w: 1280, h: 500, mode: "crop"),
+        cover: post.cover.url(w: 500, h: 500, mode: "crop"),
         slug: post.slug,
+      }
+    end,
+    services: agave.service_pages.map do |service|
+      {
+        title: service.title,
+        abstract: service.abstract,
+        slug: service.slug,
       }
     end
   }
@@ -157,7 +165,15 @@ end if agave.oragnization_page
 create_post "src/#{agave.posts_page.slug}.md" do
   frontmatter :yaml, {
     layout: 'posts',
-    title: agave.posts_page.title
+    title: agave.posts_page.title,
+    posts: agave.posts.map do |post|
+      {
+        title: post.title,
+        abstract: post.abstract,
+        cover: post.cover.url(w: 1280, h: 500, mode: "crop"),
+        slug: post.slug,
+      }
+    end
   }
 end if agave.posts_page
 
@@ -185,7 +201,15 @@ end
 create_post "src/#{agave.communications_page.slug}.md" do
   frontmatter :yaml, {
     layout: 'communications',
-    title: agave.communications_page.title
+    title: agave.communications_page.title,
+    communications: agave.communications.map do |communication|
+      {
+        title: communication.title,
+        abstract: communication.abstract,
+        cover: communication.cover.url(w: 1280, h: 800, mode: "crop"),
+        slug: communication.slug
+      }
+    end
   }
 end if agave.communications_page
 
@@ -199,9 +223,9 @@ directory "src/_communications" do
         title: communication.title,
         slug: communication.slug,
         description: communication.abstract,
-        cover: communication.cover.url(w: 1280, h: 500, mode: "crop"),
+        cover: communication.cover.url(w: 1280, h: 800, mode: "crop"),
         gallery: communication.gallery.map do |image|
-          image.url(w: 1280, h: 500, mode: "crop")
+          image.url(w: 1280, h: 800, mode: "crop")
         end,
         position: index,
         seo_meta_tags: communication.seo_meta_tags
