@@ -4,7 +4,6 @@ _site
 .env
 
 node_modules/*
-src/_*
 src/assets/
 
 src/*.md
