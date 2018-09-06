@@ -62,7 +62,15 @@ create_post "src/index.md" do
         image: sdb.image.url(w: 800, h: 400, mode: "crop")
       }
     end,
-    layout: 'home'
+    layout: 'home',
+    posts: agave.posts.each do |post|
+      {
+        title: post.title,
+        abstract: post.abstract,
+        cover: post.cover.url(w: 1280, h: 500, mode: "crop"),
+        slug: post.slug,
+      }
+    end
   }
 end
 
@@ -108,7 +116,7 @@ create_post "src/#{agave.school_subject_page.slug}.md" do
     abstract: agave.school_subject_page.abstract,
     cover: agave.school_subject_page.cover.url(w: 1280, h: 500, mode: "crop"),
     subjects: agave.school_subject_page.subjects,
-    layout: 'about',
+    layout: 'school_subject',
     seo_meta_tags: agave.school_subject_page.seo_meta_tags
   }
 
@@ -146,16 +154,12 @@ create_post "src/#{agave.oragnization_page.slug}.md" do
   content agave.oragnization_page.body
 end if agave.oragnization_page
 
-#create_post "src/posts.md" do
-#  frontmatter :yaml, {
-#    layout: 'posts',
-#    paginate: {
-#      collection: 'posts',
-#      permalink: '/notizie/:num',
-#      per_page: 8
-#    }
-#  }
-#end
+create_post "src/#{agave.posts_page.slug}.md" do
+  frontmatter :yaml, {
+    layout: 'posts',
+    title: agave.posts_page.title
+  }
+end if agave.posts_page
 
 # Create a `_posts` directory (or empty it if already exists)...
 directory "src/_posts" do
@@ -178,18 +182,14 @@ directory "src/_posts" do
   end
 end
 
-#create_post "src/communications.md" do
-#  frontmatter :yaml, {
-#    layout: 'communications',
-#    paginate: {
-#      collection: 'communications',
-#      permalink: '/communicazioni/:num',
-#      per_page: 8
-#    }
-#  }
-#end
+create_post "src/#{agave.communications_page.slug}.md" do
+  frontmatter :yaml, {
+    layout: 'communications',
+    title: agave.communications_page.title
+  }
+end if agave.communications_page
 
-# Create a `_posts` directory (or empty it if already exists)...
+# Create a `_communications` directory (or empty it if already exists)...
 directory "src/_communications" do
   agave.communications.each_with_index do |communication, index|
     # ...create a markdown file with all the metadata in the frontmatter
@@ -208,6 +208,39 @@ directory "src/_communications" do
       }
 
       content communication.body
+    end
+  end
+end
+
+# Create a `_services` directory (or empty it if already exists)...
+directory "src/_services" do
+  agave.service_pages.each_with_index do |service, index|
+    # ...create a markdown file with all the metadata in the frontmatter
+    create_post "#{service.slug}.md" do
+      frontmatter :yaml, {
+        layout: 'service',
+        title: service.title,
+        slug: service.slug,
+        abstract: service.abstract,
+        text_blocks: service.text_blocks.map do |block|
+          {
+            title: block.text_title,
+            anchor: block.anchor,
+            text_body: block.text_body
+          }
+        end,
+        document_blocks: service.document_blocks.map do |block|
+          {
+            title: block.document_block_title,
+            abstract: block.document_block_abstract,
+            documents: block.documents
+          }
+        end,
+        position: index,
+        seo_meta_tags: service.seo_meta_tags
+      }
+
+      content service.body
     end
   end
 end
