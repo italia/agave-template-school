@@ -3,6 +3,7 @@ layout: default
 paginate: true
 ---
 
+{{ paginator }}
 <main role="main">
   <section class="container">
     <h1>{{ page.title }}</h1>
@@ -14,7 +15,7 @@ paginate: true
             <div class="card-body">
               <h4 class="card-title">{{ comm.title }}</h4>
               <div class="body_text">{{ comm.abstract }}</div>
-              <a href="/communication/{{ comm.slug }}" class="btn btn-primary">Vai</a>
+              <a href="/communications/{{ comm.slug }}" class="btn btn-primary">Vai</a>
             </div>
           </div>
         </div>

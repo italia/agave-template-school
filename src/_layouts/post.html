@@ -5,11 +5,13 @@ layout: default
 <main role="main">
   <section class="container">
     <div class="row">
-      <div class="col-12 col-sm-4">
-        <h1>{{ page.title }}</h1>
-        <p class="label label-success">{{ page.tag.name }}</p>
+      <div class="col-12 col-sm-5">
+        <h1 class="w-75">{{ page.title }}</h1>
+        {% for tag in page.tags %}
+          <p class="badge badge-success">{{ tag.name }}</p>
+        {% endfor %}
       </div>
-      <div class="col-12 col-sm-8">
+      <div class="col-12 col-sm-7">
         <img class="card-img-top" src="{{ page.cover }}" />
       </div>
     </div>
