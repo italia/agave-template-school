@@ -16,7 +16,8 @@ layout: default
       <div class="col-12">
         {{ page.content }}
       </div>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      {% if page.gallery.size > 0 %}
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           {% for image in page.gallery %}
           <div class="carousel-item{% if forloop.first %} active{% endif %}">
@@ -33,6 +34,7 @@ layout: default
           </a>
         </div>
       </div>
+      {% endif %}
     </div>
   </section>
 </main>
