@@ -166,6 +166,11 @@ create_post "src/#{agave.posts_page.slug}.md" do
   frontmatter :yaml, {
     layout: 'posts',
     title: agave.posts_page.title,
+    paginate: {
+      collection: 'posts',
+      permalink: '/posts/:path',
+      per_page: 8
+    },
     posts: agave.posts.map do |post|
       {
         title: post.title,
@@ -202,6 +207,11 @@ create_post "src/#{agave.communications_page.slug}.md" do
   frontmatter :yaml, {
     layout: 'communications',
     title: agave.communications_page.title,
+    paginate: {
+      collection: 'communications',
+      permalink: '/communications/:path',
+      per_page: 8
+    },
     communications: agave.communications.map do |communication|
       {
         title: communication.title,
