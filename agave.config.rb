@@ -167,8 +167,8 @@ create_post "src/#{agave.posts_page.slug}.md" do
     layout: 'posts',
     title: agave.posts_page.title,
     paginate: {
-      collection: 'posts',
-      permalink: '/posts/:path',
+      collection: 'news',
+      permalink: '/posts/:title',
       per_page: 8
     },
     posts: agave.posts.map do |post|
@@ -183,7 +183,7 @@ create_post "src/#{agave.posts_page.slug}.md" do
 end if agave.posts_page
 
 # Create a `_posts` directory (or empty it if already exists)...
-directory "src/_posts" do
+directory "src/_news" do
   agave.posts.each_with_index do |post, index|
     # ...create a markdown file with all the metadata in the frontmatter
     create_post "#{post.slug}.md" do
@@ -193,7 +193,11 @@ directory "src/_posts" do
         slug: post.slug,
         description: post.abstract,
         cover: post.cover.url(w: 1280, h: 500, mode: "crop"),
-        tags: post.tags,
+        tags: post.tags.map do |t|
+          {
+            name: t.name
+          }
+        end,
         position: index,
         seo_meta_tags: post.seo_meta_tags
       }
