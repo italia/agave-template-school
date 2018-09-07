@@ -19,12 +19,9 @@ exclude:
   - node_modules
 
 collections:
-  posts:
+  news:
     output: true
-    permalink: /post/:path/
   communications:
     output: true
-    permalink: /communication/:path/
   services:
     output: true
-    permalink: /service/:path/
