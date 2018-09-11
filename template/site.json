@@ -1,5 +1,5 @@
 {
-  "data": [
+  "item_types": [
     {
       "id": "105",
       "type": "item_type",
@@ -965,7 +965,7 @@
       }
     }
   ],
-  "included": [
+  "fields": [
     {
       "id": "267",
       "type": "field",
@@ -4057,6 +4057,493 @@
             "type": "item_type"
           }
         }
+      }
+    }
+  ],
+  "menu_items": [
+    {
+      "id": "118",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Homepage",
+        "position": 1
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "118",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "114",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Servizi",
+        "position": 19
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "114",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "115",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Progetti",
+        "position": 20
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "115",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "117",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Menu di Navigazione",
+        "position": 0
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "117",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+            {
+              "id": "116",
+              "type": "menu_item"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "126",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Documenti",
+        "position": 21
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "107",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "120",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Carta d'identità",
+        "position": 2
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "120",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "127",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Personale scolastico",
+        "position": 22
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "111",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "123",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Orari delle lezioni",
+        "position": 3
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "123",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "121",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Materie e schede didattiche",
+        "position": 4
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "121",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "119",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Organizzazione",
+        "position": 5
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "119",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "122",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Contatti",
+        "position": 6
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "124",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Lista Notizie",
+        "position": 7
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "124",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+            {
+              "id": "108",
+              "type": "menu_item"
+            },
+            {
+              "id": "113",
+              "type": "menu_item"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "125",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Lista Comunicazioni",
+        "position": 8
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "125",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "children": {
+          "data": [
+            {
+              "id": "105",
+              "type": "menu_item"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "105",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Comunicazioni",
+        "position": 0
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "105",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": {
+            "id": "125",
+            "type": "menu_item"
+          }
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "108",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Argomenti",
+        "position": 0
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "108",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": {
+            "id": "124",
+            "type": "menu_item"
+          }
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "113",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Notizie",
+        "position": 1
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "113",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": {
+            "id": "124",
+            "type": "menu_item"
+          }
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "116",
+      "type": "menu_item",
+      "attributes": {
+        "label": "Voci di menu",
+        "position": 0
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "116",
+            "type": "item_type"
+          }
+        },
+        "parent": {
+          "data": {
+            "id": "117",
+            "type": "menu_item"
+          }
+        },
+        "children": {
+          "data": [
+
+          ]
+        }
+      }
+    }
+  ],
+  "roles": [
+    {
+      "id": "2",
+      "type": "role",
+      "attributes": {
+        "name": "Editor",
+        "can_edit_schema": false,
+        "can_edit_site": true,
+        "can_edit_favicon": false,
+        "can_manage_users": false,
+        "can_manage_access_tokens": false,
+        "can_perform_site_search": false,
+        "can_publish_to_production": true,
+        "can_dump_data": false,
+        "can_import_and_export": false,
+        "positive_item_type_permissions": [
+          {
+            "item_type": "",
+            "action": "all"
+          }
+        ],
+        "negative_item_type_permissions": [
+
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "type": "role",
+      "attributes": {
+        "name": "Admin",
+        "can_edit_schema": true,
+        "can_edit_site": true,
+        "can_edit_favicon": true,
+        "can_manage_users": true,
+        "can_manage_access_tokens": true,
+        "can_perform_site_search": true,
+        "can_publish_to_production": true,
+        "can_dump_data": true,
+        "can_import_and_export": true,
+        "positive_item_type_permissions": [
+          {
+            "item_type": "",
+            "action": "all"
+          }
+        ],
+        "negative_item_type_permissions": [
+
+        ]
       }
     }
   ]
