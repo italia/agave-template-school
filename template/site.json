@@ -1,7 +1,7 @@
 {
-  "item_types": [
+  "data": [
     {
-      "id": "21",
+      "id": "105",
       "type": "item_type",
       "attributes": {
         "name": "Comunicazioni",
@@ -15,31 +15,31 @@
         "fields": {
           "data": [
             {
-              "id": "114",
+              "id": "267",
               "type": "field"
             },
             {
-              "id": "115",
+              "id": "268",
               "type": "field"
             },
             {
-              "id": "116",
+              "id": "269",
               "type": "field"
             },
             {
-              "id": "117",
+              "id": "270",
               "type": "field"
             },
             {
-              "id": "118",
+              "id": "271",
               "type": "field"
             },
             {
-              "id": "119",
+              "id": "272",
               "type": "field"
             },
             {
-              "id": "120",
+              "id": "273",
               "type": "field"
             }
           ]
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "22",
+      "id": "106",
       "type": "item_type",
       "attributes": {
         "name": "Blocchi Homepage",
@@ -67,27 +67,27 @@
         "fields": {
           "data": [
             {
-              "id": "121",
+              "id": "274",
               "type": "field"
             },
             {
-              "id": "122",
+              "id": "275",
               "type": "field"
             },
             {
-              "id": "123",
+              "id": "276",
               "type": "field"
             },
             {
-              "id": "124",
+              "id": "277",
               "type": "field"
             },
             {
-              "id": "125",
+              "id": "278",
               "type": "field"
             },
             {
-              "id": "126",
+              "id": "279",
               "type": "field"
             }
           ]
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": "23",
+      "id": "107",
       "type": "item_type",
       "attributes": {
         "name": "Documenti allegati",
@@ -115,15 +115,15 @@
         "fields": {
           "data": [
             {
-              "id": "127",
+              "id": "280",
               "type": "field"
             },
             {
-              "id": "128",
+              "id": "281",
               "type": "field"
             },
             {
-              "id": "129",
+              "id": "282",
               "type": "field"
             }
           ]
@@ -137,7 +137,7 @@
       }
     },
     {
-      "id": "24",
+      "id": "108",
       "type": "item_type",
       "attributes": {
         "name": "Argomenti",
@@ -151,7 +151,7 @@
         "fields": {
           "data": [
             {
-              "id": "130",
+              "id": "283",
               "type": "field"
             }
           ]
@@ -165,7 +165,7 @@
       }
     },
     {
-      "id": "25",
+      "id": "109",
       "type": "item_type",
       "attributes": {
         "name": "Blocchi di Testo",
@@ -179,15 +179,15 @@
         "fields": {
           "data": [
             {
-              "id": "131",
+              "id": "284",
               "type": "field"
             },
             {
-              "id": "132",
+              "id": "285",
               "type": "field"
             },
             {
-              "id": "133",
+              "id": "286",
               "type": "field"
             }
           ]
@@ -201,7 +201,7 @@
       }
     },
     {
-      "id": "26",
+      "id": "110",
       "type": "item_type",
       "attributes": {
         "name": "Blocchi documenti",
@@ -215,15 +215,15 @@
         "fields": {
           "data": [
             {
-              "id": "134",
+              "id": "287",
               "type": "field"
             },
             {
-              "id": "135",
+              "id": "288",
               "type": "field"
             },
             {
-              "id": "136",
+              "id": "374",
               "type": "field"
             }
           ]
@@ -237,7 +237,7 @@
       }
     },
     {
-      "id": "27",
+      "id": "111",
       "type": "item_type",
       "attributes": {
         "name": "Personale scolastico",
@@ -251,19 +251,19 @@
         "fields": {
           "data": [
             {
-              "id": "137",
+              "id": "290",
               "type": "field"
             },
             {
-              "id": "138",
+              "id": "291",
               "type": "field"
             },
             {
-              "id": "139",
+              "id": "292",
               "type": "field"
             },
             {
-              "id": "140",
+              "id": "293",
               "type": "field"
             }
           ]
@@ -277,7 +277,7 @@
       }
     },
     {
-      "id": "28",
+      "id": "112",
       "type": "item_type",
       "attributes": {
         "name": "Blocco personale",
@@ -291,15 +291,15 @@
         "fields": {
           "data": [
             {
-              "id": "141",
+              "id": "294",
               "type": "field"
             },
             {
-              "id": "142",
+              "id": "295",
               "type": "field"
             },
             {
-              "id": "143",
+              "id": "375",
               "type": "field"
             }
           ]
@@ -313,7 +313,7 @@
       }
     },
     {
-      "id": "29",
+      "id": "113",
       "type": "item_type",
       "attributes": {
         "name": "Notizie",
@@ -327,31 +327,31 @@
         "fields": {
           "data": [
             {
-              "id": "144",
+              "id": "297",
               "type": "field"
             },
             {
-              "id": "145",
+              "id": "298",
               "type": "field"
             },
             {
-              "id": "146",
+              "id": "299",
               "type": "field"
             },
             {
-              "id": "147",
+              "id": "300",
               "type": "field"
             },
             {
-              "id": "148",
+              "id": "301",
               "type": "field"
             },
             {
-              "id": "149",
+              "id": "302",
               "type": "field"
             },
             {
-              "id": "150",
+              "id": "303",
               "type": "field"
             }
           ]
@@ -365,7 +365,7 @@
       }
     },
     {
-      "id": "30",
+      "id": "114",
       "type": "item_type",
       "attributes": {
         "name": "Servizi",
@@ -379,31 +379,31 @@
         "fields": {
           "data": [
             {
-              "id": "151",
+              "id": "304",
               "type": "field"
             },
             {
-              "id": "152",
+              "id": "305",
               "type": "field"
             },
             {
-              "id": "153",
+              "id": "306",
               "type": "field"
             },
             {
-              "id": "154",
+              "id": "307",
               "type": "field"
             },
             {
-              "id": "225",
+              "id": "376",
               "type": "field"
             },
             {
-              "id": "155",
+              "id": "308",
               "type": "field"
             },
             {
-              "id": "156",
+              "id": "309",
               "type": "field"
             }
           ]
@@ -417,7 +417,7 @@
       }
     },
     {
-      "id": "31",
+      "id": "115",
       "type": "item_type",
       "attributes": {
         "name": "Progetti",
@@ -431,27 +431,31 @@
         "fields": {
           "data": [
             {
-              "id": "157",
+              "id": "310",
               "type": "field"
             },
             {
-              "id": "158",
+              "id": "311",
               "type": "field"
             },
             {
-              "id": "159",
+              "id": "312",
               "type": "field"
             },
             {
-              "id": "160",
+              "id": "313",
               "type": "field"
             },
             {
-              "id": "161",
+              "id": "387",
               "type": "field"
             },
             {
-              "id": "162",
+              "id": "388",
+              "type": "field"
+            },
+            {
+              "id": "315",
               "type": "field"
             }
           ]
@@ -465,7 +469,7 @@
       }
     },
     {
-      "id": "32",
+      "id": "116",
       "type": "item_type",
       "attributes": {
         "name": "Voci di menu",
@@ -479,15 +483,15 @@
         "fields": {
           "data": [
             {
-              "id": "163",
+              "id": "316",
               "type": "field"
             },
             {
-              "id": "164",
+              "id": "317",
               "type": "field"
             },
             {
-              "id": "165",
+              "id": "318",
               "type": "field"
             }
           ]
@@ -501,7 +505,7 @@
       }
     },
     {
-      "id": "34",
+      "id": "118",
       "type": "item_type",
       "attributes": {
         "name": "Homepage",
@@ -515,27 +519,27 @@
         "fields": {
           "data": [
             {
-              "id": "175",
+              "id": "328",
               "type": "field"
             },
             {
-              "id": "176",
+              "id": "329",
               "type": "field"
             },
             {
-              "id": "177",
+              "id": "330",
               "type": "field"
             },
             {
-              "id": "178",
+              "id": "331",
               "type": "field"
             },
             {
-              "id": "179",
+              "id": "332",
               "type": "field"
             },
             {
-              "id": "180",
+              "id": "333",
               "type": "field"
             }
           ]
@@ -549,7 +553,7 @@
       }
     },
     {
-      "id": "36",
+      "id": "120",
       "type": "item_type",
       "attributes": {
         "name": "Carta d'identità",
@@ -563,43 +567,43 @@
         "fields": {
           "data": [
             {
-              "id": "191",
+              "id": "344",
               "type": "field"
             },
             {
-              "id": "192",
+              "id": "345",
               "type": "field"
             },
             {
-              "id": "193",
+              "id": "346",
               "type": "field"
             },
             {
-              "id": "194",
+              "id": "347",
               "type": "field"
             },
             {
-              "id": "195",
+              "id": "348",
               "type": "field"
             },
             {
-              "id": "196",
+              "id": "349",
               "type": "field"
             },
             {
-              "id": "197",
+              "id": "350",
               "type": "field"
             },
             {
-              "id": "198",
+              "id": "351",
               "type": "field"
             },
             {
-              "id": "199",
+              "id": "352",
               "type": "field"
             },
             {
-              "id": "200",
+              "id": "353",
               "type": "field"
             }
           ]
@@ -613,115 +617,7 @@
       }
     },
     {
-      "id": "33",
-      "type": "item_type",
-      "attributes": {
-        "name": "Menu di Navigazione",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "navigation",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "166",
-              "type": "field"
-            },
-            {
-              "id": "167",
-              "type": "field"
-            },
-            {
-              "id": "168",
-              "type": "field"
-            },
-            {
-              "id": "169",
-              "type": "field"
-            },
-            {
-              "id": "170",
-              "type": "field"
-            },
-            {
-              "id": "171",
-              "type": "field"
-            },
-            {
-              "id": "172",
-              "type": "field"
-            },
-            {
-              "id": "173",
-              "type": "field"
-            },
-            {
-              "id": "174",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "39",
-      "type": "item_type",
-      "attributes": {
-        "name": "Orari delle lezioni",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "teaching_hour_page",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "215",
-              "type": "field"
-            },
-            {
-              "id": "216",
-              "type": "field"
-            },
-            {
-              "id": "217",
-              "type": "field"
-            },
-            {
-              "id": "218",
-              "type": "field"
-            },
-            {
-              "id": "219",
-              "type": "field"
-            },
-            {
-              "id": "220",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "37",
+      "id": "121",
       "type": "item_type",
       "attributes": {
         "name": "Materie e schede didattiche",
@@ -735,31 +631,31 @@
         "fields": {
           "data": [
             {
-              "id": "201",
+              "id": "354",
               "type": "field"
             },
             {
-              "id": "202",
+              "id": "355",
               "type": "field"
             },
             {
-              "id": "203",
+              "id": "356",
               "type": "field"
             },
             {
-              "id": "204",
+              "id": "357",
               "type": "field"
             },
             {
-              "id": "205",
+              "id": "358",
               "type": "field"
             },
             {
-              "id": "206",
+              "id": "359",
               "type": "field"
             },
             {
-              "id": "207",
+              "id": "360",
               "type": "field"
             }
           ]
@@ -773,71 +669,7 @@
       }
     },
     {
-      "id": "35",
-      "type": "item_type",
-      "attributes": {
-        "name": "Organizzazione",
-        "singleton": true,
-        "sortable": false,
-        "api_key": "oragnization_page",
-        "ordering_direction": null,
-        "tree": false
-      },
-      "relationships": {
-        "fields": {
-          "data": [
-            {
-              "id": "181",
-              "type": "field"
-            },
-            {
-              "id": "182",
-              "type": "field"
-            },
-            {
-              "id": "183",
-              "type": "field"
-            },
-            {
-              "id": "184",
-              "type": "field"
-            },
-            {
-              "id": "185",
-              "type": "field"
-            },
-            {
-              "id": "186",
-              "type": "field"
-            },
-            {
-              "id": "187",
-              "type": "field"
-            },
-            {
-              "id": "188",
-              "type": "field"
-            },
-            {
-              "id": "189",
-              "type": "field"
-            },
-            {
-              "id": "190",
-              "type": "field"
-            }
-          ]
-        },
-        "singleton_item": {
-          "data": null
-        },
-        "ordering_field": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": "38",
+      "id": "122",
       "type": "item_type",
       "attributes": {
         "name": "Contatti",
@@ -851,31 +683,31 @@
         "fields": {
           "data": [
             {
-              "id": "208",
+              "id": "361",
               "type": "field"
             },
             {
-              "id": "209",
+              "id": "362",
               "type": "field"
             },
             {
-              "id": "210",
+              "id": "363",
               "type": "field"
             },
             {
-              "id": "211",
+              "id": "364",
               "type": "field"
             },
             {
-              "id": "212",
+              "id": "365",
               "type": "field"
             },
             {
-              "id": "213",
+              "id": "366",
               "type": "field"
             },
             {
-              "id": "214",
+              "id": "367",
               "type": "field"
             }
           ]
@@ -889,13 +721,13 @@
       }
     },
     {
-      "id": "40",
+      "id": "123",
       "type": "item_type",
       "attributes": {
-        "name": "Lista Notizie",
+        "name": "Orari delle lezioni",
         "singleton": true,
         "sortable": false,
-        "api_key": "posts_page",
+        "api_key": "teaching_hour_page",
         "ordering_direction": null,
         "tree": false
       },
@@ -903,15 +735,27 @@
         "fields": {
           "data": [
             {
-              "id": "221",
+              "id": "368",
               "type": "field"
             },
             {
-              "id": "222",
+              "id": "369",
               "type": "field"
             },
             {
-              "id": "227",
+              "id": "370",
+              "type": "field"
+            },
+            {
+              "id": "371",
+              "type": "field"
+            },
+            {
+              "id": "372",
+              "type": "field"
+            },
+            {
+              "id": "373",
               "type": "field"
             }
           ]
@@ -925,7 +769,131 @@
       }
     },
     {
-      "id": "41",
+      "id": "119",
+      "type": "item_type",
+      "attributes": {
+        "name": "Organizzazione",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "oragnization_page",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "334",
+              "type": "field"
+            },
+            {
+              "id": "335",
+              "type": "field"
+            },
+            {
+              "id": "336",
+              "type": "field"
+            },
+            {
+              "id": "337",
+              "type": "field"
+            },
+            {
+              "id": "338",
+              "type": "field"
+            },
+            {
+              "id": "339",
+              "type": "field"
+            },
+            {
+              "id": "340",
+              "type": "field"
+            },
+            {
+              "id": "341",
+              "type": "field"
+            },
+            {
+              "id": "342",
+              "type": "field"
+            },
+            {
+              "id": "343",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "117",
+      "type": "item_type",
+      "attributes": {
+        "name": "Menu di Navigazione",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "navigation",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "319",
+              "type": "field"
+            },
+            {
+              "id": "320",
+              "type": "field"
+            },
+            {
+              "id": "321",
+              "type": "field"
+            },
+            {
+              "id": "322",
+              "type": "field"
+            },
+            {
+              "id": "323",
+              "type": "field"
+            },
+            {
+              "id": "324",
+              "type": "field"
+            },
+            {
+              "id": "325",
+              "type": "field"
+            },
+            {
+              "id": "326",
+              "type": "field"
+            },
+            {
+              "id": "327",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "125",
       "type": "item_type",
       "attributes": {
         "name": "Lista Comunicazioni",
@@ -939,15 +907,51 @@
         "fields": {
           "data": [
             {
-              "id": "223",
+              "id": "380",
               "type": "field"
             },
             {
-              "id": "224",
+              "id": "381",
               "type": "field"
             },
             {
-              "id": "226",
+              "id": "382",
+              "type": "field"
+            }
+          ]
+        },
+        "singleton_item": {
+          "data": null
+        },
+        "ordering_field": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": "124",
+      "type": "item_type",
+      "attributes": {
+        "name": "Lista Notizie",
+        "singleton": true,
+        "sortable": false,
+        "api_key": "posts_page",
+        "ordering_direction": null,
+        "tree": false
+      },
+      "relationships": {
+        "fields": {
+          "data": [
+            {
+              "id": "377",
+              "type": "field"
+            },
+            {
+              "id": "378",
+              "type": "field"
+            },
+            {
+              "id": "379",
               "type": "field"
             }
           ]
@@ -961,9 +965,9 @@
       }
     }
   ],
-  "fields": [
+  "included": [
     {
-      "id": "114",
+      "id": "267",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -983,14 +987,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "21",
+            "id": "105",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "115",
+      "id": "268",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -1006,21 +1010,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "114",
+          "title_field_id": "267",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "21",
+            "id": "105",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "116",
+      "id": "269",
       "type": "field",
       "attributes": {
         "label": "Copertina",
@@ -1039,14 +1043,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "21",
+            "id": "105",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "117",
+      "id": "270",
       "type": "field",
       "attributes": {
         "label": "Introduzione",
@@ -1064,14 +1068,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "21",
+            "id": "105",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "118",
+      "id": "271",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -1091,14 +1095,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "21",
+            "id": "105",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "119",
+      "id": "272",
       "type": "field",
       "attributes": {
         "label": "Galleria di foto",
@@ -1115,14 +1119,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "21",
+            "id": "105",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "120",
+      "id": "273",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -1139,14 +1143,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "21",
+            "id": "105",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "121",
+      "id": "274",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -1166,14 +1170,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "22",
+            "id": "106",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "122",
+      "id": "275",
       "type": "field",
       "attributes": {
         "label": "Introduzione",
@@ -1191,14 +1195,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "22",
+            "id": "106",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "123",
+      "id": "276",
       "type": "field",
       "attributes": {
         "label": "Testo pulsante",
@@ -1216,14 +1220,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "22",
+            "id": "106",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "124",
+      "id": "277",
       "type": "field",
       "attributes": {
         "label": "Link pulsante",
@@ -1232,9 +1236,6 @@
         "hint": null,
         "localized": false,
         "validators": {
-          "format": {
-            "predefined_pattern": "url"
-          }
         },
         "position": 4,
         "appeareance": {
@@ -1244,19 +1245,19 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "22",
+            "id": "106",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "125",
+      "id": "278",
       "type": "field",
       "attributes": {
         "label": "Immagine come background?",
         "field_type": "boolean",
-        "api_key": "immagine_come_background",
+        "api_key": "use_background",
         "hint": null,
         "localized": false,
         "validators": {
@@ -1268,14 +1269,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "22",
+            "id": "106",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "126",
+      "id": "279",
       "type": "field",
       "attributes": {
         "label": "Copertina o background",
@@ -1292,14 +1293,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "22",
+            "id": "106",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "127",
+      "id": "280",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -1319,14 +1320,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "23",
+            "id": "107",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "128",
+      "id": "281",
       "type": "field",
       "attributes": {
         "label": "Descrizione breve",
@@ -1344,14 +1345,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "23",
+            "id": "107",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "129",
+      "id": "282",
       "type": "field",
       "attributes": {
         "label": "Allegato",
@@ -1375,14 +1376,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "23",
+            "id": "107",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "130",
+      "id": "283",
       "type": "field",
       "attributes": {
         "label": "Nome",
@@ -1404,14 +1405,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "24",
+            "id": "108",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "131",
+      "id": "284",
       "type": "field",
       "attributes": {
         "label": "Titolo Blocco",
@@ -1431,14 +1432,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "25",
+            "id": "109",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "132",
+      "id": "285",
       "type": "field",
       "attributes": {
         "label": "Ancora",
@@ -1454,21 +1455,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "131",
+          "title_field_id": "284",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "25",
+            "id": "109",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "133",
+      "id": "286",
       "type": "field",
       "attributes": {
         "label": "Corpo del blocco",
@@ -1488,14 +1489,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "25",
+            "id": "109",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "134",
+      "id": "287",
       "type": "field",
       "attributes": {
         "label": "Titolo blocco",
@@ -1515,14 +1516,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "26",
+            "id": "110",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "135",
+      "id": "288",
       "type": "field",
       "attributes": {
         "label": "Introduzione blocco",
@@ -1542,14 +1543,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "26",
+            "id": "110",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "136",
+      "id": "374",
       "type": "field",
       "attributes": {
         "label": "Documenti",
@@ -1560,7 +1561,7 @@
         "validators": {
           "items_item_type": {
             "item_types": [
-              "23"
+              "107"
             ]
           }
         },
@@ -1572,14 +1573,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "26",
+            "id": "110",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "137",
+      "id": "290",
       "type": "field",
       "attributes": {
         "label": "Nome e Cognome",
@@ -1599,14 +1600,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "27",
+            "id": "111",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "138",
+      "id": "291",
       "type": "field",
       "attributes": {
         "label": "Foto",
@@ -1623,14 +1624,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "27",
+            "id": "111",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "139",
+      "id": "292",
       "type": "field",
       "attributes": {
         "label": "Ruolo",
@@ -1650,14 +1651,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "27",
+            "id": "111",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "140",
+      "id": "293",
       "type": "field",
       "attributes": {
         "label": "Descrizione breve",
@@ -1675,14 +1676,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "27",
+            "id": "111",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "141",
+      "id": "294",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -1702,14 +1703,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "28",
+            "id": "112",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "142",
+      "id": "295",
       "type": "field",
       "attributes": {
         "label": "Descrizione breve",
@@ -1727,14 +1728,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "28",
+            "id": "112",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "143",
+      "id": "375",
       "type": "field",
       "attributes": {
         "label": "Personale",
@@ -1745,7 +1746,7 @@
         "validators": {
           "items_item_type": {
             "item_types": [
-              "27"
+              "111"
             ]
           }
         },
@@ -1757,14 +1758,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "28",
+            "id": "112",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "144",
+      "id": "297",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -1784,14 +1785,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "29",
+            "id": "113",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "145",
+      "id": "298",
       "type": "field",
       "attributes": {
         "label": "slug",
@@ -1807,21 +1808,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "144",
+          "title_field_id": "297",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "29",
+            "id": "113",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "146",
+      "id": "299",
       "type": "field",
       "attributes": {
         "label": "Copertina",
@@ -1840,14 +1841,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "29",
+            "id": "113",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "147",
+      "id": "300",
       "type": "field",
       "attributes": {
         "label": "Introduzione",
@@ -1865,14 +1866,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "29",
+            "id": "113",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "148",
+      "id": "301",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -1892,14 +1893,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "29",
+            "id": "113",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "149",
+      "id": "302",
       "type": "field",
       "attributes": {
         "label": "Argomenti",
@@ -1910,7 +1911,7 @@
         "validators": {
           "items_item_type": {
             "item_types": [
-              "24"
+              "108"
             ]
           }
         },
@@ -1922,14 +1923,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "29",
+            "id": "113",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "150",
+      "id": "303",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -1946,14 +1947,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "29",
+            "id": "113",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "151",
+      "id": "304",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -1973,14 +1974,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "30",
+            "id": "114",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "152",
+      "id": "305",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -1996,21 +1997,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "151",
+          "title_field_id": "304",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "30",
+            "id": "114",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "153",
+      "id": "306",
       "type": "field",
       "attributes": {
         "label": "Introduzione",
@@ -2028,17 +2029,17 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "30",
+            "id": "114",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "154",
+      "id": "307",
       "type": "field",
       "attributes": {
-        "label": "Contenuti Testuali",
+        "label": "Contenuto Testuali",
         "field_type": "rich_text",
         "api_key": "text_blocks",
         "hint": null,
@@ -2046,7 +2047,7 @@
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "25"
+              "109"
             ]
           }
         },
@@ -2057,14 +2058,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "30",
+            "id": "114",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "225",
+      "id": "376",
       "type": "field",
       "attributes": {
         "label": "Documenti allegati",
@@ -2075,7 +2076,7 @@
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "26"
+              "110"
             ]
           }
         },
@@ -2086,14 +2087,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "30",
+            "id": "114",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "155",
+      "id": "308",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -2111,14 +2112,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "30",
+            "id": "114",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "156",
+      "id": "309",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -2135,14 +2136,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "30",
+            "id": "114",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "157",
+      "id": "310",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -2162,14 +2163,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "31",
+            "id": "115",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "158",
+      "id": "311",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -2185,21 +2186,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "157",
+          "title_field_id": "310",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "31",
+            "id": "115",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "159",
+      "id": "312",
       "type": "field",
       "attributes": {
         "label": "Copertina",
@@ -2218,14 +2219,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "31",
+            "id": "115",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "160",
+      "id": "313",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -2245,26 +2246,25 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "31",
+            "id": "115",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "161",
+      "id": "387",
       "type": "field",
       "attributes": {
-        "label": "Contenuti Modulari",
+        "label": "Contenuto Testuali",
         "field_type": "rich_text",
-        "api_key": "modular_content",
+        "api_key": "text_blocks",
         "hint": null,
         "localized": true,
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "25",
-              "26"
+              "109"
             ]
           }
         },
@@ -2275,14 +2275,43 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "31",
+            "id": "115",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "162",
+      "id": "388",
+      "type": "field",
+      "attributes": {
+        "label": "Documenti allegati",
+        "field_type": "rich_text",
+        "api_key": "document_blocks",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "110"
+            ]
+          }
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "115",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "315",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -2292,21 +2321,21 @@
         "localized": true,
         "validators": {
         },
-        "position": 6,
+        "position": 8,
         "appeareance": {
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "31",
+            "id": "115",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "163",
+      "id": "316",
       "type": "field",
       "attributes": {
         "label": "Nome Voce",
@@ -2328,14 +2357,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "32",
+            "id": "116",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "164",
+      "id": "317",
       "type": "field",
       "attributes": {
         "label": "Pagine Dinamiche",
@@ -2346,10 +2375,10 @@
         "validators": {
           "item_item_type": {
             "item_types": [
-              "29",
-              "30",
-              "31",
-              "21"
+              "113",
+              "114",
+              "115",
+              "105"
             ]
           }
         },
@@ -2361,14 +2390,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "32",
+            "id": "116",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "165",
+      "id": "318",
       "type": "field",
       "attributes": {
         "label": "Url pagina singola",
@@ -2386,14 +2415,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "32",
+            "id": "116",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "175",
+      "id": "328",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -2413,14 +2442,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "34",
+            "id": "118",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "176",
+      "id": "329",
       "type": "field",
       "attributes": {
         "label": "Presentazione",
@@ -2440,14 +2469,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "34",
+            "id": "118",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "177",
+      "id": "330",
       "type": "field",
       "attributes": {
         "label": "Titolo fascia servizi",
@@ -2465,14 +2494,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "34",
+            "id": "118",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "178",
+      "id": "331",
       "type": "field",
       "attributes": {
         "label": "Introduzione servizi",
@@ -2490,14 +2519,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "34",
+            "id": "118",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "179",
+      "id": "332",
       "type": "field",
       "attributes": {
         "label": "Blocchi Scuola e Didattica",
@@ -2508,7 +2537,7 @@
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "22"
+              "106"
             ]
           }
         },
@@ -2519,14 +2548,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "34",
+            "id": "118",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "180",
+      "id": "333",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -2543,14 +2572,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "34",
+            "id": "118",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "191",
+      "id": "344",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -2570,14 +2599,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "192",
+      "id": "345",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -2593,21 +2622,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "191",
+          "title_field_id": "344",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "193",
+      "id": "346",
       "type": "field",
       "attributes": {
         "label": "Introduzione",
@@ -2625,14 +2654,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "194",
+      "id": "347",
       "type": "field",
       "attributes": {
         "label": "Copertina",
@@ -2651,14 +2680,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "195",
+      "id": "348",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -2676,14 +2705,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "196",
+      "id": "349",
       "type": "field",
       "attributes": {
         "label": "Galleria di foto",
@@ -2700,14 +2729,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "197",
+      "id": "350",
       "type": "field",
       "attributes": {
         "label": "Titolo Sezione Documenti",
@@ -2725,14 +2754,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "198",
+      "id": "351",
       "type": "field",
       "attributes": {
         "label": "Introduzione sezione documenti",
@@ -2750,14 +2779,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "199",
+      "id": "352",
       "type": "field",
       "attributes": {
         "label": "Documenti",
@@ -2768,7 +2797,7 @@
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "23"
+              "107"
             ]
           }
         },
@@ -2779,14 +2808,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "200",
+      "id": "353",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -2803,275 +2832,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "36",
+            "id": "120",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "166",
-      "type": "field",
-      "attributes": {
-        "label": "Nome Sito",
-        "field_type": "string",
-        "api_key": "site_name",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "167",
-      "type": "field",
-      "attributes": {
-        "label": "Prima voce di menu",
-        "field_type": "string",
-        "api_key": "first_level",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "168",
-      "type": "field",
-      "attributes": {
-        "label": "Sottomenu Prima Voce",
-        "field_type": "rich_text",
-        "api_key": "first_level_submenu",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "32"
-            ]
-          }
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "169",
-      "type": "field",
-      "attributes": {
-        "label": "Seconda voce di menu",
-        "field_type": "string",
-        "api_key": "second_level",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "170",
-      "type": "field",
-      "attributes": {
-        "label": "Sottomenu Seconda Voce",
-        "field_type": "rich_text",
-        "api_key": "second_level_submenu",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "32"
-            ]
-          }
-        },
-        "position": 5,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "171",
-      "type": "field",
-      "attributes": {
-        "label": "Terza Voce di menu",
-        "field_type": "string",
-        "api_key": "third_level",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 6,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "172",
-      "type": "field",
-      "attributes": {
-        "label": "Sottomenu Terza Voce",
-        "field_type": "rich_text",
-        "api_key": "third_level_submenu",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "32"
-            ]
-          }
-        },
-        "position": 7,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "173",
-      "type": "field",
-      "attributes": {
-        "label": "Quarta Voce di menu",
-        "field_type": "string",
-        "api_key": "fourth_level",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 8,
-        "appeareance": {
-          "type": "plain"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "174",
-      "type": "field",
-      "attributes": {
-        "label": "Sottomenu Quarta Voce",
-        "field_type": "rich_text",
-        "api_key": "fourth_level_submenu",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "32"
-            ]
-          }
-        },
-        "position": 9,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "215",
+      "id": "354",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -3091,14 +2859,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "39",
+            "id": "121",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "216",
+      "id": "355",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -3114,21 +2882,392 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "215",
+          "title_field_id": "354",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "39",
+            "id": "121",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "217",
+      "id": "356",
+      "type": "field",
+      "attributes": {
+        "label": "Copertina",
+        "field_type": "image",
+        "api_key": "cover",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "121",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "357",
+      "type": "field",
+      "attributes": {
+        "label": "Introduzione",
+        "field_type": "text",
+        "api_key": "abstract",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "121",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "358",
+      "type": "field",
+      "attributes": {
+        "label": "Corpo pagina",
+        "field_type": "text",
+        "api_key": "body",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "wysiwyg"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "121",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "359",
+      "type": "field",
+      "attributes": {
+        "label": "Materie",
+        "field_type": "rich_text",
+        "api_key": "subjects",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "109"
+            ]
+          }
+        },
+        "position": 6,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "121",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "360",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "121",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "361",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "362",
+      "type": "field",
+      "attributes": {
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "361",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "363",
+      "type": "field",
+      "attributes": {
+        "label": "Posizione sulla mappa",
+        "field_type": "lat_lon",
+        "api_key": "location",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 3,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "364",
+      "type": "field",
+      "attributes": {
+        "label": "Indirizzo",
+        "field_type": "string",
+        "api_key": "address",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 4,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "365",
+      "type": "field",
+      "attributes": {
+        "label": "Telefono",
+        "field_type": "string",
+        "api_key": "phone",
+        "hint": null,
+        "localized": false,
+        "validators": {
+        },
+        "position": 5,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "366",
+      "type": "field",
+      "attributes": {
+        "label": "Email principale",
+        "field_type": "string",
+        "api_key": "primary_email",
+        "hint": null,
+        "localized": false,
+        "validators": {
+          "format": {
+            "predefined_pattern": "email"
+          }
+        },
+        "position": 6,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "367",
+      "type": "field",
+      "attributes": {
+        "label": "SEO",
+        "field_type": "seo",
+        "api_key": "seo",
+        "hint": null,
+        "localized": true,
+        "validators": {
+        },
+        "position": 7,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "122",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "368",
+      "type": "field",
+      "attributes": {
+        "label": "Titolo",
+        "field_type": "string",
+        "api_key": "title",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          }
+        },
+        "position": 1,
+        "appeareance": {
+          "type": "title"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "123",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "369",
+      "type": "field",
+      "attributes": {
+        "label": "Slug",
+        "field_type": "slug",
+        "api_key": "slug",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 2,
+        "appeareance": {
+          "title_field_id": "368",
+          "url_prefix": null
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "123",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "370",
       "type": "field",
       "attributes": {
         "label": "Introduzione",
@@ -3146,14 +3285,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "39",
+            "id": "123",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "218",
+      "id": "371",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -3173,14 +3312,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "39",
+            "id": "123",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "219",
+      "id": "372",
       "type": "field",
       "attributes": {
         "label": "Allegato",
@@ -3202,14 +3341,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "39",
+            "id": "123",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "220",
+      "id": "373",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -3226,14 +3365,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "39",
+            "id": "123",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "201",
+      "id": "334",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -3253,14 +3392,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "37",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "202",
+      "id": "335",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -3276,207 +3415,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "201",
+          "title_field_id": "334",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "37",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "203",
-      "type": "field",
-      "attributes": {
-        "label": "Copertina",
-        "field_type": "image",
-        "api_key": "cover",
-        "hint": null,
-        "localized": false,
-        "validators": {
-        },
-        "position": 3,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "37",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "204",
-      "type": "field",
-      "attributes": {
-        "label": "Introduzione",
-        "field_type": "text",
-        "api_key": "abstract",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 4,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "37",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "205",
-      "type": "field",
-      "attributes": {
-        "label": "Corpo pagina",
-        "field_type": "text",
-        "api_key": "body",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 5,
-        "appeareance": {
-          "type": "wysiwyg"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "37",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "206",
-      "type": "field",
-      "attributes": {
-        "label": "Materie",
-        "field_type": "rich_text",
-        "api_key": "subjects",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "rich_text_blocks": {
-            "item_types": [
-              "25"
-            ]
-          }
-        },
-        "position": 6,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "37",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "207",
-      "type": "field",
-      "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
-        "hint": null,
-        "localized": true,
-        "validators": {
-        },
-        "position": 7,
-        "appeareance": {
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "37",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "181",
-      "type": "field",
-      "attributes": {
-        "label": "Titolo",
-        "field_type": "string",
-        "api_key": "title",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          }
-        },
-        "position": 1,
-        "appeareance": {
-          "type": "title"
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "35",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "182",
-      "type": "field",
-      "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
-        "hint": null,
-        "localized": true,
-        "validators": {
-          "required": {
-          },
-          "unique": {
-          }
-        },
-        "position": 2,
-        "appeareance": {
-          "title_field_id": "181",
-          "url_prefix": null
-        }
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "35",
-            "type": "item_type"
-          }
-        }
-      }
-    },
-    {
-      "id": "183",
+      "id": "336",
       "type": "field",
       "attributes": {
         "label": "Introduzione",
@@ -3494,14 +3447,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "184",
+      "id": "337",
       "type": "field",
       "attributes": {
         "label": "Copertina",
@@ -3520,14 +3473,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "185",
+      "id": "338",
       "type": "field",
       "attributes": {
         "label": "Corpo pagina",
@@ -3545,14 +3498,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "186",
+      "id": "339",
       "type": "field",
       "attributes": {
         "label": "Titolo Sezione Documenti",
@@ -3570,14 +3523,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "187",
+      "id": "340",
       "type": "field",
       "attributes": {
         "label": "Introduzione sezione documenti",
@@ -3595,14 +3548,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "188",
+      "id": "341",
       "type": "field",
       "attributes": {
         "label": "Documenti",
@@ -3613,7 +3566,7 @@
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "23"
+              "107"
             ]
           }
         },
@@ -3624,14 +3577,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "189",
+      "id": "342",
       "type": "field",
       "attributes": {
         "label": "Personale scolastico",
@@ -3642,7 +3595,7 @@
         "validators": {
           "rich_text_blocks": {
             "item_types": [
-              "28"
+              "112"
             ]
           }
         },
@@ -3653,14 +3606,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "190",
+      "id": "343",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -3677,23 +3630,25 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "35",
+            "id": "119",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "208",
+      "id": "319",
       "type": "field",
       "attributes": {
-        "label": "Titolo",
+        "label": "Nome Sito",
         "field_type": "string",
-        "api_key": "title",
+        "api_key": "site_name",
         "hint": null,
         "localized": true,
         "validators": {
           "required": {
+          },
+          "unique": {
           }
         },
         "position": 1,
@@ -3704,19 +3659,19 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "38",
+            "id": "117",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "209",
+      "id": "320",
       "type": "field",
       "attributes": {
-        "label": "Slug",
-        "field_type": "slug",
-        "api_key": "slug",
+        "label": "Prima voce di menu",
+        "field_type": "string",
+        "api_key": "first_level",
         "hint": null,
         "localized": true,
         "validators": {
@@ -3727,30 +3682,32 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "208",
-          "url_prefix": null
+          "type": "plain"
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "38",
+            "id": "117",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "210",
+      "id": "321",
       "type": "field",
       "attributes": {
-        "label": "Posizione sulla mappa",
-        "field_type": "lat_lon",
-        "api_key": "location",
+        "label": "Sottomenu Prima Voce",
+        "field_type": "rich_text",
+        "api_key": "first_level_submenu",
         "hint": null,
-        "localized": false,
+        "localized": true,
         "validators": {
-          "required": {
+          "rich_text_blocks": {
+            "item_types": [
+              "116"
+            ]
           }
         },
         "position": 3,
@@ -3760,22 +3717,26 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "38",
+            "id": "117",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "211",
+      "id": "322",
       "type": "field",
       "attributes": {
-        "label": "Indirizzo",
+        "label": "Seconda voce di menu",
         "field_type": "string",
-        "api_key": "address",
+        "api_key": "second_level",
         "hint": null,
         "localized": true,
         "validators": {
+          "required": {
+          },
+          "unique": {
+          }
         },
         "position": 4,
         "appeareance": {
@@ -3785,49 +3746,54 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "38",
+            "id": "117",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "212",
+      "id": "323",
       "type": "field",
       "attributes": {
-        "label": "Telefono",
-        "field_type": "string",
-        "api_key": "phone",
+        "label": "Sottomenu Seconda Voce",
+        "field_type": "rich_text",
+        "api_key": "second_level_submenu",
         "hint": null,
-        "localized": false,
+        "localized": true,
         "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "116"
+            ]
+          }
         },
         "position": 5,
         "appeareance": {
-          "type": "plain"
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "38",
+            "id": "117",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "213",
+      "id": "324",
       "type": "field",
       "attributes": {
-        "label": "Email principale",
+        "label": "Terza Voce di menu",
         "field_type": "string",
-        "api_key": "primary_email",
+        "api_key": "third_level",
         "hint": null,
-        "localized": false,
+        "localized": true,
         "validators": {
-          "format": {
-            "predefined_pattern": "email"
+          "required": {
+          },
+          "unique": {
           }
         },
         "position": 6,
@@ -3838,22 +3804,27 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "38",
+            "id": "117",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "214",
+      "id": "325",
       "type": "field",
       "attributes": {
-        "label": "SEO",
-        "field_type": "seo",
-        "api_key": "seo",
+        "label": "Sottomenu Terza Voce",
+        "field_type": "rich_text",
+        "api_key": "third_level_submenu",
         "hint": null,
         "localized": true,
         "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "116"
+            ]
+          }
         },
         "position": 7,
         "appeareance": {
@@ -3862,14 +3833,72 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "38",
+            "id": "117",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "221",
+      "id": "326",
+      "type": "field",
+      "attributes": {
+        "label": "Quarta Voce di menu",
+        "field_type": "string",
+        "api_key": "fourth_level",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "required": {
+          },
+          "unique": {
+          }
+        },
+        "position": 8,
+        "appeareance": {
+          "type": "plain"
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "117",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "327",
+      "type": "field",
+      "attributes": {
+        "label": "Sottomenu Quarta Voce",
+        "field_type": "rich_text",
+        "api_key": "fourth_level_submenu",
+        "hint": null,
+        "localized": true,
+        "validators": {
+          "rich_text_blocks": {
+            "item_types": [
+              "116"
+            ]
+          }
+        },
+        "position": 9,
+        "appeareance": {
+        }
+      },
+      "relationships": {
+        "item_type": {
+          "data": {
+            "id": "117",
+            "type": "item_type"
+          }
+        }
+      }
+    },
+    {
+      "id": "380",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -3889,14 +3918,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "40",
+            "id": "125",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "222",
+      "id": "381",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -3912,21 +3941,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "221",
+          "title_field_id": "380",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "40",
+            "id": "125",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "227",
+      "id": "382",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -3943,14 +3972,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "40",
+            "id": "125",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "223",
+      "id": "377",
       "type": "field",
       "attributes": {
         "label": "Titolo",
@@ -3970,14 +3999,14 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "41",
+            "id": "124",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "224",
+      "id": "378",
       "type": "field",
       "attributes": {
         "label": "Slug",
@@ -3993,21 +4022,21 @@
         },
         "position": 2,
         "appeareance": {
-          "title_field_id": "223",
+          "title_field_id": "377",
           "url_prefix": null
         }
       },
       "relationships": {
         "item_type": {
           "data": {
-            "id": "41",
+            "id": "124",
             "type": "item_type"
           }
         }
       }
     },
     {
-      "id": "226",
+      "id": "379",
       "type": "field",
       "attributes": {
         "label": "SEO",
@@ -4024,497 +4053,10 @@
       "relationships": {
         "item_type": {
           "data": {
-            "id": "41",
+            "id": "124",
             "type": "item_type"
           }
         }
-      }
-    }
-  ],
-  "menu_items": [
-    {
-      "id": "31",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Progetti",
-        "position": 20
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "31",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "33",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Menu di Navigazione",
-        "position": 0
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "33",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-            {
-              "id": "32",
-              "type": "menu_item"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "34",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Homepage",
-        "position": 1
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "34",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "36",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Carta d'identità",
-        "position": 2
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "36",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "42",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Lista Notizie",
-        "position": 9
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "40",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-            {
-              "id": "24",
-              "type": "menu_item"
-            },
-            {
-              "id": "29",
-              "type": "menu_item"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "30",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Servizi",
-        "position": 6
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "30",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "35",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Organizzazione",
-        "position": 5
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "35",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "37",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Materie e schede didattiche",
-        "position": 4
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "37",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "38",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Contatti",
-        "position": 7
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "38",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "39",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Orari delle lezioni",
-        "position": 3
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "39",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "41",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Personale scolastico",
-        "position": 22
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "27",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "40",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Documenti",
-        "position": 21
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "23",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "43",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Lista Comunicazioni",
-        "position": 10
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "41",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": null
-        },
-        "children": {
-          "data": [
-            {
-              "id": "21",
-              "type": "menu_item"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "21",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Comunicazioni",
-        "position": 0
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "21",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": {
-            "id": "43",
-            "type": "menu_item"
-          }
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "29",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Notizie",
-        "position": 1
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "29",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": {
-            "id": "42",
-            "type": "menu_item"
-          }
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "24",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Argomenti",
-        "position": 0
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "24",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": {
-            "id": "42",
-            "type": "menu_item"
-          }
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    },
-    {
-      "id": "32",
-      "type": "menu_item",
-      "attributes": {
-        "label": "Voci di menu",
-        "position": 0
-      },
-      "relationships": {
-        "item_type": {
-          "data": {
-            "id": "32",
-            "type": "item_type"
-          }
-        },
-        "parent": {
-          "data": {
-            "id": "33",
-            "type": "menu_item"
-          }
-        },
-        "children": {
-          "data": [
-
-          ]
-        }
-      }
-    }
-  ],
-  "roles": [
-    {
-      "id": "2",
-      "type": "role",
-      "attributes": {
-        "name": "Editor",
-        "can_edit_schema": false,
-        "can_edit_site": false,
-        "can_edit_favicon": true,
-        "can_manage_users": false,
-        "can_manage_access_tokens": false,
-        "can_perform_site_search": false,
-        "can_publish_to_production": true,
-        "can_dump_data": false,
-        "can_import_and_export": false,
-        "positive_item_type_permissions": [
-          {
-            "item_type": "",
-            "action": "all"
-          }
-        ],
-        "negative_item_type_permissions": [
-
-        ]
-      }
-    },
-    {
-      "id": "1",
-      "type": "role",
-      "attributes": {
-        "name": "Admin",
-        "can_edit_schema": true,
-        "can_edit_site": true,
-        "can_edit_favicon": true,
-        "can_manage_users": true,
-        "can_manage_access_tokens": true,
-        "can_perform_site_search": true,
-        "can_publish_to_production": true,
-        "can_dump_data": true,
-        "can_import_and_export": true,
-        "positive_item_type_permissions": [
-          {
-            "item_type": "",
-            "action": "all"
-          }
-        ],
-        "negative_item_type_permissions": [
-
-        ]
       }
     }
   ]
