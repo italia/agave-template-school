@@ -1,40 +1,57 @@
-# Agave template School Website
+# Agave template Scuola
 
-This repo contains a working static website written with [Jekyll](https://jekyllrb.com)
+Questo repository contiene un sito statico funzionante scritto con [Jekyll](https://jekyllrb.com)
 
-## Usage
+## Utilizzo
 
-First, install the RUBY and NODE dependencies of this project:
+Per il corretto utikizzo del template si consiglia di utilizzare RUBY 2.4.3 e NODE 8.9.4 tramite YARN.
+Per prima cosa, occorre installare tutte le dipendenze del progetto lanciando:
 
 ```
 bundle
 yarn
 ```
 
-Then, to run this website in development mode (with live-reload):
+Per avviare il sistema in modalita `development` (con live-reload), lanciare:
 
 ```
 yarn start
 ```
 
-To build the final, production ready static website:
+Per costruire quindi il sistema e avviare il sito statico in `production` lanciare:
 
 ```
 yarn build
 ```
 
-The final result will be saved in the `public` directory.
+L'output finale sara salvato all'interno della directory `build` sopra la radice del progetto corrente.
+Questo per consentire il corretto funzionamento del sito statico all'interno di Agave.
 
-## Environment
+## Variabili di sistema
 
-For application test, setup `AGAVECMS_BASE_URL` with `http://agave.lvh.me:3000` and `AGAVE_API_TOKEN` with your admin API KEY.
+Per l'ambiente di sviluppo occorre configurare due variabili d'ambiente all'interno di un file `.env`.
+Le variabili sono
 
-## Test AGAVE API
+```
+AGAVECMS_BASE_URL=http://agave.lvh.me:3000
+AGAVE_API_TOKEN=AGAVE_API_KEY
+```
 
-To test the Agave API launch:
+### Test AGAVE API
+
+Per effettuare un test verso il sistema di chiamate API di Agave, lanciare::
 
 ```
 curl http://agave.lvh.me:3000/api/item-types -H "Authorization:Bearer AGAVE API KEY" -H "Accept:application/json"
 ```
 
-Retrive the test output of the request into `curl_test.json`
+E possibile visualizzare un output di test all'interno del file `curl_test.json`
+
+### Altre informazioni
+
+- ImageFlow: generatore di thumbnail e resize on-demand delle immagini [Link documentazione](/docs/ImageFlowGeneralDocumentation.md)
+- Aggiungere una libreria tramite webpack e sass [Link documentazione]
+- Generare una nuova pagina o collezione [Link documentazione]
+- Aggiungere Privacy e Cookie Policy [Link documentazione](/docs/PrivacyPolicy.md)
+- Inserire una Mappa [Link documentazione]
+- Inserire un form di contatti [Link documentazione](/docs/)
