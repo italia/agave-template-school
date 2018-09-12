@@ -50,8 +50,8 @@ E possibile visualizzare un output di test all'interno del file `curl_test.json`
 ### Altre informazioni
 
 - ImageFlow: generatore di thumbnail e resize on-demand delle immagini [Link documentazione](/docs/ImageFlowGeneralDocumentation.md)
-- Aggiungere una libreria tramite webpack e sass [Link documentazione]
-- Generare una nuova pagina o collezione [Link documentazione]
+- Aggiungere una libreria (JS e SASS) tramite yarn [Link documentazione](/docs/CustomLibraryDocumentation.md)
+- Generare una nuova pagina o collezione [Link documentazione](/docs/NewContentDocumentation.md)
 - Aggiungere Privacy e Cookie Policy [Link documentazione](/docs/PrivacyPolicy.md)
-- Inserire una Mappa [Link documentazione]
-- Inserire un form di contatti [Link documentazione](/docs/)
+- Inserire una Mappa [Link documentazione](/docs/MapsDocumentation.md)
+- Inserire un form di contatti [Link documentazione](/docs/ContactDocumentation.md)

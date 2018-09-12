@@ -18,13 +18,13 @@ Per i tipi di campi IMMAGINE e FILE il sistema prevede un helper tramite il qual
 
 ### Parametri disponibili
 
-`width | w` => imposta la larghezza massima dell'immagine
-`height | h` => imposta l'altezza massima dell'immagine
-`mode` => permette di impostare la modalita di resize dell'immagine; i valori accettatti sono:
-  `max` => l'immagine viene ridimensionata mantenendo le proporzioni fino alla larghezza o altezza massime impostate
-  `pad` => l'immagine viene ridimensionata ma se non rispetta le proporzioni impostate viene aggiunto un bordo bianco
-  `crop` => l'immagine viene ritagliata delle dimensioni esatte impostate
-  `stretch` => l'immagine viene ridimensionata senza mantenere le proporzioni fino alle misure impostate
-`format` => e possibile impostare un formato differente dall'immagine originale caricata; i formati supportati sono (jpg,png,gif)
-`bgcolor` => e possibile passare come parametro l'esadecimale del colore scelto
-`s.grayscale | s.sepia` => per impostare se si vuole l'immagine in scala di grigi o in seppia
+- `width | w` => imposta la larghezza massima dell'immagine
+- `height | h` => imposta l'altezza massima dell'immagine
+- `mode` => permette di impostare la modalita di resize dell'immagine; i valori accettatti sono:
+  - `max` => l'immagine viene ridimensionata mantenendo le proporzioni fino alla larghezza o altezza massime impostate
+  - `pad` => l'immagine viene ridimensionata ma se non rispetta le proporzioni impostate viene aggiunto un bordo bianco
+  - `crop` => l'immagine viene ritagliata delle dimensioni esatte impostate
+  - `stretch` => l'immagine viene ridimensionata senza mantenere le proporzioni fino alle misure impostate
+- `format` => e possibile impostare un formato differente dall'immagine originale caricata; i formati supportati sono (jpg,png,gif)
+- `bgcolor` => e possibile passare come parametro l'esadecimale del colore scelto
+- `s.grayscale | s.sepia` => per impostare se si vuole l'immagine in scala di grigi o in seppia
