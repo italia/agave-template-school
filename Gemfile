@@ -10,7 +10,7 @@ ruby ">= 2.4.0"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.3"
-gem "agave", git: "https://gitlab.cantierecreativo.net/agid/ruby-agave-client.git", branch: "feature/deep_hashify_items"
+gem "agave-client"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
