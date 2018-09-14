@@ -11,7 +11,7 @@
         {{ tag | tagify }}
       {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="/assets/css/styles.css" rel="stylesheet">
+    <link href="{{ "assets/css/styles.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
 
   </head>
   <body>
@@ -21,8 +21,8 @@
 
     {% include footer.html %}
 
-    <script src="/assets/js/application.js"></script>
-    <script src="/assets/js/styles.js"></script>
+    <script src="{{ "assets/js/application.js" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}"></script>
+    <script src="{{ "assets/js/styles.js" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}"></script>
     {% if jekyll.environment == "development" %}
       <script src="http://localhost:5678/livereload.js"></script>
     {% endif %}
