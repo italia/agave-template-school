@@ -4,27 +4,27 @@ case
 when !agave.try(:navigation)
   abort "\nError: navigation missing! Check integrity of your model."
 when !agave.homepage
-  abort "Error: homepage missing! Check integrity of your model."
+  abort "\nError: homepage missing! Check integrity of your model."
 when !agave.identity_card_page
-  abort "Error: identity card missing! Check integrity of your model."
+  abort "\nError: identity card missing! Check integrity of your model."
 when !agave.contact_page
-  abort "Error: contact missing! Check integrity of your model."
+  abort "\nError: contact missing! Check integrity of your model."
 when !agave.school_subject_page
-  abort "Error: school subject missing! Check integrity of your model."
+  abort "\nError: school subject missing! Check integrity of your model."
 when !agave.teaching_hour_page
-  abort "Error: teaching hour missing! Check integrity of your model."
+  abort "\nError: teaching hour missing! Check integrity of your model."
 when !agave.organization_page
-  abort "Error: organization missing! Check integrity of your model."
+  abort "\nError: organization missing! Check integrity of your model."
 when !agave.posts_page
-  abort "Error: posts missing! Check integrity of your model."
+  abort "\nError: posts missing! Check integrity of your model."
 when !agave.communications
-  abort "Error: communication missing! Check integrity of your model."
+  abort "\nError: communication missing! Check integrity of your model."
 when !agave.communications_page
-  abort "Error: communications missing! Check integrity of your model."
+  abort "\nError: communications missing! Check integrity of your model."
 when !agave.service_pages
-  abort "Error: service missing! Check integrity of your model."
+  abort "\nError: service missing! Check integrity of your model."
 when !agave.posts
-  abort "Error: posts missing! Check integrity of your model."
+  abort "\nError: posts missing! Check integrity of your model."
 end
 
 # Create a YAML data file to store global data about the site
