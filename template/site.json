@@ -775,7 +775,7 @@
         "name": "Organizzazione",
         "singleton": true,
         "sortable": false,
-        "api_key": "oragnization_page",
+        "api_key": "organization_page",
         "ordering_direction": null,
         "tree": false
       },
