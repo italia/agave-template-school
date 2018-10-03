@@ -32,8 +32,11 @@
       <div class="menu-wrapper">
         <ul class="navbar-nav">
           {% for item in site.data.menu %}
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"><span>{{ item.title  }} </span></a>
-            <div class="dropdown-menu">
+          <li class="nav-item dropdown">
+            <a id="dropdownMenuLink-{{ forloop.index }}" class="nav-link dropdown-toggle" role="button" href="#" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+              <span>{{ item.title  }}</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink-{{ forloop.index }}">
               <div class="link-list-wrapper">
                 <ul class="link-list">
                   {% for sub_item in item.sub %}
