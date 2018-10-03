@@ -1,49 +1,76 @@
+# Check model
+
+case
+when !agave.try(:navigation)
+  abort "\nError: navigation missing! Check integrity of your model."
+when !agave.homepage
+  abort "Error: homepage missing! Check integrity of your model."
+when !agave.identity_card_page
+  abort "Error: identity card missing! Check integrity of your model."
+when !agave.contact_page
+  abort "Error: contact missing! Check integrity of your model."
+when !agave.school_subject_page
+  abort "Error: school subject missing! Check integrity of your model."
+when !agave.teaching_hour_page
+  abort "Error: teaching hour missing! Check integrity of your model."
+when !agave.organization_page
+  abort "Error: organization missing! Check integrity of your model."
+when !agave.posts_page
+  abort "Error: posts missing! Check integrity of your model."
+when !agave.communications
+  abort "Error: communication missing! Check integrity of your model."
+when !agave.communications_page
+  abort "Error: communications missing! Check integrity of your model."
+when !agave.service_pages
+  abort "Error: service missing! Check integrity of your model."
+when !agave.posts
+  abort "Error: posts missing! Check integrity of your model."
+end
+
 # Create a YAML data file to store global data about the site
 create_data_file "src/_data/settings.yml", :yaml,
   name: (agave.navigation) ? agave.navigation.site_name : agave.homepage.title,
   intro: agave.homepage.abstract
 
-if agave.navigation
 create_data_file "src/_data/menu.yml", :yaml,
   [
-    {
-      title: agave.navigation.first_level,
-      sub: agave.navigation.first_level_submenu.map do |fls|
-        {
-          title: fls.title,
-          reference_url: (fls.reference_page) ? fls.reference_page.slug : fls.reference_url
-        }
-      end
-    },
-    {
-      title: agave.navigation.second_level,
-      sub: agave.navigation.second_level_submenu.map do |sls|
-        {
-          title: sls.title,
-          reference_url: (sls.reference_page) ? sls.reference_page.slug : sls.reference_url
-        }
-      end
-    },
-    {
-      title: agave.navigation.third_level,
-      sub: agave.navigation.third_level_submenu.map do |tls|
-        {
-          title: tls.title,
-          reference_url: (tls.reference_page) ? tls.reference_page.slug : tls.reference_url
-        }
-      end
-    },
-    {
-      title: agave.navigation.fourth_level,
-      sub: agave.navigation.fourth_level_submenu.map do |fls|
-        {
-          title: fls.title,
-          reference_url: (fls.reference_page) ? fls.reference_page.slug : fls.reference_url
-        }
-      end
-    }
+  {
+    title: agave.navigation.first_level,
+    sub: agave.navigation.first_level_submenu.map do |fls|
+      {
+        title: fls.title,
+        reference_url: (fls.reference_page) ? fls.reference_page.slug : fls.reference_url
+      }
+    end
+  },
+  {
+    title: agave.navigation.second_level,
+    sub: agave.navigation.second_level_submenu.map do |sls|
+      {
+        title: sls.title,
+        reference_url: (sls.reference_page) ? sls.reference_page.slug : sls.reference_url
+      }
+    end
+  },
+  {
+    title: agave.navigation.third_level,
+    sub: agave.navigation.third_level_submenu.map do |tls|
+      {
+        title: tls.title,
+        reference_url: (tls.reference_page) ? tls.reference_page.slug : tls.reference_url
+      }
+    end
+  },
+  {
+    title: agave.navigation.fourth_level,
+    sub: agave.navigation.fourth_level_submenu.map do |fls|
+      {
+        title: fls.title,
+        reference_url: (fls.reference_page) ? fls.reference_page.slug : fls.reference_url
+      }
+    end
+  }
   ]
-end
 
 # Create a markdown file from the content of the `home` item type
 create_post "src/index.md" do
@@ -100,7 +127,7 @@ create_post "src/#{agave.identity_card_page.slug}.md" do
   }
 
   content agave.identity_card_page.body
-end if agave.identity_card_page
+end
 
 # Create a markdown file from the content of the `contact_page` item type
 create_post "src/#{agave.contact_page.slug}.md" do
@@ -114,7 +141,7 @@ create_post "src/#{agave.contact_page.slug}.md" do
     layout: 'contact',
     seo_meta_tags: agave.contact_page.seo_meta_tags
   }
-end if agave.contact_page
+end
 
 # Create a markdown file from the content of the `school_subject_page` item type
 create_post "src/#{agave.school_subject_page.slug}.md" do
@@ -129,7 +156,7 @@ create_post "src/#{agave.school_subject_page.slug}.md" do
   }
 
   content agave.school_subject_page.body
-end if agave.school_subject_page
+end
 
 # Create a markdown file from the content of the `teaching_hour_page` item type
 create_post "src/#{agave.teaching_hour_page.slug}.md" do
@@ -143,24 +170,24 @@ create_post "src/#{agave.teaching_hour_page.slug}.md" do
   }
 
   content agave.teaching_hour_page.body
-end if agave.teaching_hour_page
+end
 
-# Create a markdown file from the content of the `oragnization_page` item type
-create_post "src/#{agave.oragnization_page.slug}.md" do
+# Create a markdown file from the content of the `organization_page` item type
+create_post "src/#{agave.organization_page.slug}.md" do
   frontmatter :yaml, {
-    title: agave.oragnization_page.title,
-    slug: agave.oragnization_page.slug,
-    abstract: agave.oragnization_page.abstract,
-    document_title: agave.oragnization_page.document_title,
-    document_abstract: agave.oragnization_page.document_abstract,
-    document: agave.oragnization_page.document,
-    staff: agave.oragnization_page.staff,
-    layout: 'oragnization',
-    seo_meta_tags: agave.oragnization_page.seo_meta_tags
+    title: agave.organization_page.title,
+    slug: agave.organization_page.slug,
+    abstract: agave.organization_page.abstract,
+    document_title: agave.organization_page.document_title,
+    document_abstract: agave.organization_page.document_abstract,
+    document: agave.organization_page.document,
+    staff: agave.organization_page.staff,
+    layout: 'organization',
+    seo_meta_tags: agave.organization_page.seo_meta_tags
   }
 
-  content agave.oragnization_page.body
-end if agave.oragnization_page
+  content agave.organization_page.body
+end
 
 create_post "src/#{agave.posts_page.slug}.md" do
   frontmatter :yaml, {
@@ -180,7 +207,7 @@ create_post "src/#{agave.posts_page.slug}.md" do
       }
     end
   }
-end if agave.posts_page
+end
 
 # Create a `_posts` directory (or empty it if already exists)...
 directory "src/_news" do
@@ -225,7 +252,7 @@ create_post "src/#{agave.communications_page.slug}.md" do
       }
     end
   }
-end if agave.communications_page
+end
 
 # Create a `_communications` directory (or empty it if already exists)...
 directory "src/_communications" do
