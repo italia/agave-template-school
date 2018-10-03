@@ -7,3 +7,7 @@ node_modules/*
 src/assets/
 
 src/*.md
+src/_communications
+src/_data
+src/_news
+src/_services
