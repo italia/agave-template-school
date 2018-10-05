@@ -25,7 +25,7 @@ module.exports = {
       __dirname,
       process.env.NODE_ENV === "development"
         ? "./src/assets"
-        : "../build/assets"
+        : "./build/assets"
     ),
     filename: "js/[name].js",
     publicPath: "/assets/"
