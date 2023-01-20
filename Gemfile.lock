@@ -1,11 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.1)
+    activesupport (6.0.6.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     agave-client (0.1.2)
@@ -25,7 +26,7 @@ GEM
       toml
     cacert (0.5.0)
     colorator (1.1.0)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.10)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.5.0)
@@ -77,7 +78,7 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mime-types (2.99.3)
-    minitest (5.11.3)
+    minitest (5.17.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
     octopress (3.0.11)
@@ -124,12 +125,13 @@ GEM
     titlecase (0.1.1)
     toml (0.2.0)
       parslet (~> 1.8.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
     websocket (1.2.8)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   ruby
